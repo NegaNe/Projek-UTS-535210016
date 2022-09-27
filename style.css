@@ -405,5 +405,15 @@ body{
 /* akhir Jefri */
 
 
+/* PROFILE BY HANS */
 
 
+.profile_img{
+    float:right;
+    width: 400px;
+    height: 300px;
+    margin-right: 250px;
+    margin-top: 250px;
+}
+
+/* PROFILE BY HANS */
