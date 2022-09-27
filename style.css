@@ -11,14 +11,7 @@ body{
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    /* position: fixed; */
 }
-
-/* .clearfix::after {
-    content: "";
-    display: table; */
-    /* clear: both;
-} */
 
 .active{
     height: auto;
@@ -30,7 +23,6 @@ body{
 .search {
     display: inline-block;
     margin: 10px;
-    /* background-color: red; */
 }
 
 .search{
