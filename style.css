@@ -82,6 +82,16 @@ body{
   /* float: right; */
 }
 
+.header-right {
+    background-color: #333;
+    transition: background-color ease-in-out .2s;
+}
+
+.header-right:hover{
+    background-color: #404040;
+    transition: background-color ease-in-out .2s;
+}
+
 /* Trending */
 .container-trending{
     max-width:100%;
@@ -165,11 +175,12 @@ body{
     border: none;
     border-radius: 20px;
     padding:10px;
-    
+    cursor: pointer;
+    transition: background-color ease-in-out .2s ;
 }
 
 .b_header:hover{
-    /* transition: ease-in-out .2s ; */
+    transition: background-color ease-in-out .2s ;
     background-color: gray;
 }
 
