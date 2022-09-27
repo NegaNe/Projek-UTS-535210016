@@ -48,6 +48,9 @@ body{
     background-color: grey;
 }
 
+.form-inline .form-control .my-form {
+    width: 500px;
+}
 
 .navbar a {
   color: #f2f2f2;
@@ -68,7 +71,7 @@ body{
 }
 
 .navbar-right {
-    margin-left: 20px;
+    margin-left: 30px;
     padding: 10px;
     /* background-color: red; */
   /* float: right; */
