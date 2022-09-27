@@ -52,17 +52,6 @@ body{
     vertical-align: text-bottom;
 }
 
-.search-icon{
-    background-color: #333;
-    transition: background-color ease-in-out .2s;
-}
-
-.search-icon:hover{
-    cursor: pointer;
-    background-color: #404040;
-    transition: background-color ease-in-out .2s;
-}
-
 .search a:hover {
     background-color: grey;
 }
@@ -91,17 +80,6 @@ body{
     padding: 10px;
     /* background-color: red; */
   /* float: right; */
-}
-
-.header-right{
-    background-color: #333;
-    transition: background-color ease-in-out .2s;
-}
-
-.header-right:hover{
-    cursor: pointer;
-    background-color: #404040;
-    transition: background-color ease-in-out .2s;
 }
 
 /* Trending */
@@ -187,13 +165,12 @@ body{
     border: none;
     border-radius: 20px;
     padding:10px;
-    transition: background-color ease-in-out .2s;
+    
 }
 
 .b_header:hover{
-    transition: background-color ease-in-out .2s ;
+    /* transition: ease-in-out .2s ; */
     background-color: gray;
-    cursor: pointer;
 }
 
 
