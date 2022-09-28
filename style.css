@@ -422,3 +422,33 @@ body{
 }
 
 /* PROFILE BY HANS */
+
+/*login by kf*/
+.container-login{
+    background-color: whitesmoke;
+    max-width: 50%;
+    height:auto;
+    margin-top:12%;
+    margin-left: 25%;
+    padding: 20px;
+    border-radius: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.login{
+    color: yellowgreen;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+form-group{
+    margin-top: 30px;
+}
+
+.forgot{
+    margin-top:2.5%;
+    font-size: smaller;
+    position:flex;
+    padding-bottom: 20px;
+}
