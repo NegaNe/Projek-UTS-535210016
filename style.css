@@ -11,7 +11,12 @@ body{
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    margin-bottom: 250px;
+    /* margin-bottom: 250px; */
+}
+
+#profile-nav-box{
+margin-bottom: 150px;
+
 }
 
 .active{
@@ -208,10 +213,13 @@ body{
     /* border: 1% solid white ; */
 }
 
+/* by Hans */
 .contents-profile{
     height: auto;
     width: auto;
     margin-left: 200px;
+    border: 1pt white solid;
+
     /* border: 1% solid white ; */
 }
 
@@ -440,28 +448,46 @@ body{
     width: 400px;
     height: 300px;
     margin-right: 400px;
+
 }
 
-.profile-imgbox{
+/* .profile-imgbox{
 border: #04AA6D, 10px, solid;
-}
+
+} */
 
 .card-img-top{
     border-radius: 4%;
     /* padding: 5px, 5px, 5px, 5px; */
-    background-color: #04AA6D;
+    background-color: #2b2b2c;
     padding-top: 10px;
     padding-bottom: 50px;
     padding-left: 10px;
     padding-right: 10px;
-
+    border: 1pt white solid;
 
 }
 
+#posts-box{
+    margin-left: 200px;
+    margin-right: 970px;
+    margin-bottom: 50px;
+    border: 1pt white solid;
+    background-color: #2b2b2c;
+    padding:10px;
+    border-radius: 3px;
+}
 
+#profile-box{
 
+}
 
+.card-text{
+display: flexbox;
+position:absolute;
+top: 615px;
 
+}
 
 
 
