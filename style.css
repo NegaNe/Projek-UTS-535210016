@@ -232,6 +232,7 @@ body{
     width: 36px;
     height: 36px;
     border-radius: 50%;
+    border:#04AA6D, 5px, solid;
  
 }
 
@@ -434,16 +435,28 @@ body{
 /* PROFILE BY HANS */
 
 
-.profile_img{
+.profile-img{
     float:right;
     width: 400px;
     height: 300px;
     margin-right: 400px;
 }
 
+.profile-imgbox{
+border: #04AA6D, 10px, solid;
+}
+
+.card-img-top{
+    border-radius: 4%;
+    /* padding: 5px, 5px, 5px, 5px; */
+    background-color: #04AA6D;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
 
 
-
+}
 
 
 
