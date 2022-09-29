@@ -11,6 +11,7 @@ body{
     justify-content: space-around;
     align-items: center;
     width: 100%;
+    margin-bottom: 250px;
 }
 
 .active{
@@ -210,9 +211,9 @@ body{
 .contents-profile{
     height: auto;
     width: auto;
+    margin-left: 200px;
     /* border: 1% solid white ; */
 }
-
 
 /* .contents:hover{
     border: 3px solid white ;
@@ -437,8 +438,18 @@ body{
     float:right;
     width: 400px;
     height: 300px;
-    margin-right: 250px;
-    margin-top: 250px;
+    margin-right: 400px;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 /* PROFILE BY HANS */
