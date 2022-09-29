@@ -11,14 +11,7 @@ body{
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    /* position: fixed; */
 }
-
-/* .clearfix::after {
-    content: "";
-    display: table; */
-    /* clear: both;
-} */
 
 .active{
     height: auto;
@@ -30,20 +23,14 @@ body{
 .search {
     display: inline-block;
     margin: 10px;
-    /* background-color: red; */
 }
 
 .search{
     padding: 5px 0;
-    width: 10%;
+    width: 40%;
     border-radius: 10px;
-    -webkit-transition: width 0.5s ease-in-out;
-    transition: width 0.5s ease-in-out;
 }
 
-.search:focus {
-    width: 40%;
-}
 
 .feather {
     color: cyan;
@@ -56,6 +43,9 @@ body{
     background-color: grey;
 }
 
+.form-inline .form-control .my-form {
+    width: 500px;
+}
 
 .navbar a {
   color: #f2f2f2;
@@ -76,7 +66,7 @@ body{
 }
 
 .navbar-right {
-    margin-left: 20px;
+    margin-left: 30px;
     padding: 10px;
     /* background-color: red; */
   /* float: right; */

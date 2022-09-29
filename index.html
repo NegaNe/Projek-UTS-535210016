@@ -4,24 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
     <script src="https://unpkg.com/feather-icons"></script>
-    <title>Document</title>
+    <title>Forum</title>
 </head>
 <body>
         
     <!-- Navbar -->
-    <nav class="navbar clearfix">
-        <!-- <span id="brand">For</span> -->
+    <nav class="navbar sticky-top navbar-dark">
         <a class="active" href="#home">Home</a>
         
-        <input type="text" class="search" placeholder="Write something here.....">
-        <a href="#" class="search-icon"><i data-feather="search"></i></a>
+        <form class="form-inline">
+            <input class="form-control my-form m-2" type="text" placeholder="Type Something" >
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
         <div class="navbar-right">
-            <a class="header-right" href="#news">News</a>
-            <a class="header-right" href="#about">Log In</a>
-            <a class="header-right" href="#contact">Sign up</a>
+            <a class="header-right" href="#">News</a>
+            <a class="header-right" href="#">Log In</a>
+            <a class="header-right" href="signup.html">Sign up</a>
         </div>
     </nav>
 
