@@ -484,8 +484,7 @@ border: #04AA6D, 10px, solid;
 
 .card-text{
 display: flexbox;
-position:absolute;
-top: 615px;
+
 
 }
 
