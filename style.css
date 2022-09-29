@@ -207,6 +207,13 @@ body{
     /* border: 1% solid white ; */
 }
 
+.contents-profile{
+    height: auto;
+    width: auto;
+    /* border: 1% solid white ; */
+}
+
+
 /* .contents:hover{
     border: 3px solid white ;
     background-color: white; 
@@ -273,7 +280,7 @@ body{
 
 .img-icon{
     display: flex;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
     
     
