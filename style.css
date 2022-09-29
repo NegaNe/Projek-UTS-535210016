@@ -324,9 +324,9 @@ body{
     text-align: center;
 }
 
-#judul{
+/* #judul{
     
-}
+} */
 
 .card-content a{
     width: auto;
@@ -409,6 +409,7 @@ body{
 }
 /* akhir Jefri */
 
+
 /* sign-up.html */
 .form-signup {
     margin: 100px 50px;
@@ -417,3 +418,16 @@ body{
     height: 50%;
 }
 
+
+/* PROFILE BY HANS */
+
+
+.profile_img{
+    float:right;
+    width: 400px;
+    height: 300px;
+    margin-right: 250px;
+    margin-top: 250px;
+}
+
+/* PROFILE BY HANS */
