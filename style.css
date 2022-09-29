@@ -5,6 +5,10 @@ body{
 }
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Pacifico&display=swap');
 
+
+/* font Untuk Postingan */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 .navbar {
     background-color: #333;
     display: flex;
@@ -128,7 +132,7 @@ body{
     padding:1%;
     width: auto;
     height: auto;
-    background-color: grey;
+    /* background-color: grey; */
     font-family: 'Montserrat', sans-serif;
     
 
@@ -222,7 +226,7 @@ body{
     background-color: white; 
 } */
 
-.wrapper-profil{
+.container-profil{
     display: flex;
     justify-content:start;
     padding-bottom:10px ;
@@ -261,6 +265,7 @@ body{
 .p1{
     padding-top: 5% ;
     text-align: start;
+    font-family: 'Roboto', arial, sans-serif;
 }
 
 
