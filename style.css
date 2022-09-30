@@ -5,6 +5,8 @@ body{
 }
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Pacifico&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
 .navbar {
     background-color: #333;
     display: flex;
@@ -424,16 +426,28 @@ body{
 /* PROFILE BY HANS */
 
 /*login by kf*/
+#tulisan-raddot{
+    margin-top: 5%;
+    max-width: fit-content;
+    margin-left: 42.6%;
+    color:white;
+    font-size: 70px;
+    font-family: 'Fredoka One', cursive;
+    text-shadow: 10px 10px 10px yellowgreen;
+}
+
 .container-login{
     background-color: whitesmoke;
     max-width: 50%;
     height:auto;
-    margin-top:12%;
+    margin-top:3%;
     margin-left: 25%;
     padding: 20px;
     border-radius: 20px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif
-}
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 20px 15px 10px yellowgreen;
+} 
+
 
 .login{
     color: yellowgreen;
