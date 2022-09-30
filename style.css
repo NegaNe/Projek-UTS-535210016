@@ -1,7 +1,7 @@
 /* Navbar */
 body{
     background-color: #121212;
-    color: white;
+    /* color: white; */
 }
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Pacifico&display=swap');
 
@@ -429,19 +429,20 @@ body{
 #tulisan-raddot{
     margin-top: 5%;
     max-width: fit-content;
-    margin-left: 42.6%;
+    margin-left: 25%;
     color:white;
     font-size: 70px;
     font-family: 'Fredoka One', cursive;
     text-shadow: 10px 10px 10px yellowgreen;
+    position: absolute;
 }
 
 .container-login{
     background-color: whitesmoke;
-    max-width: 50%;
+    max-width: 30%;
     height:auto;
-    margin-top:3%;
-    margin-left: 25%;
+    margin-top:15%;
+    margin-left: 45%;
     padding: 20px;
     border-radius: 20px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
