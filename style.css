@@ -422,7 +422,12 @@ body{
 }
 /* akhir Jefri */
 
-
+.logo{
+    background-color: #04AA6D;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 130%;
+    border-radius: 7%;
+}
 /* PROFILE BY HANS */
 
 
