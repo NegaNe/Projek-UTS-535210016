@@ -43,8 +43,8 @@ body{
     background-color: grey;
 }
 
-.form-inline .form-control .my-form {
-    width: 500px;
+.form-inline .form-control{
+    width: 60em;
 }
 
 .navbar a {
