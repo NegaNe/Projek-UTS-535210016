@@ -411,15 +411,26 @@ body{
 
 
 /* sign-up.html */
+
 .form-signup {
     color: black;
-    margin: 100px;
+    margin: 100px auto;
     padding: 20px;
-    width: 60%;
+    width: 35%;
     height: 50%;
     border-radius: 10px;
+    box-shadow: 20px 15px 10px yellowgreen;
     background-color: white;
-    
+}
+
+.form-signup .signup {
+    color: yellowgreen;
+    text-align: center;
+    font-weight: bold;
+}
+
+.form-signup .form-group .form-check {
+    margin-top: 10px;
 }
 
 
