@@ -433,8 +433,14 @@ body{
     color:white;
     font-size: 70px;
     font-family: 'Fredoka One', cursive;
-    text-shadow: 10px 10px 10px yellowgreen;
+    text-shadow: none;
+    transition: text-shadow ease-in-out .3s;
     position: absolute;
+}
+
+#tulisan-raddot:hover{
+    text-shadow: 5px 5px 5px #51ACC5;
+    transition: text-shadow ease-in-out .3s;
 }
 
 .container-login{
@@ -446,7 +452,7 @@ body{
     padding: 20px;
     border-radius: 20px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    box-shadow: 20px 15px 10px yellowgreen;
+    box-shadow: 10px 10px 10px #51ACC5;
 } 
 
 
