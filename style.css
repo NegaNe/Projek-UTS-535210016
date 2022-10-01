@@ -87,6 +87,7 @@ body{
     max-width:100%;
     height:auto;
     padding: 0 14%;
+    margin-bottom: 25px;
     /* float: both; */
 }
 
@@ -109,19 +110,20 @@ body{
 }
 
 .container-tulisanisi{
-    display: flex;
+    display:flex;
     justify-content: space-between;
-    /* padding: 10px; */
+    background-color: yellowgreen;
+    padding-top: 11px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
 }
 
 .box-trending{
     padding:1%;
     width: auto;
     height: auto;
-    background-color: grey;
     font-family: 'Montserrat', sans-serif;
-    
-
 }
 
 .content-trending{
