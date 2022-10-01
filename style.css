@@ -427,10 +427,10 @@ body{
 
 /*login by kf*/
 #tulisan-raddot{
-    margin-top: 5%;
+    margin-top: 12%;
     max-width: fit-content;
-    margin-left: 25%;
-    color:white;
+    margin-left: 22%;
+    color:lightblue;
     font-size: 70px;
     font-family: 'Fredoka One', cursive;
     text-shadow: none;
@@ -447,8 +447,8 @@ body{
     background-color: whitesmoke;
     max-width: 30%;
     height:auto;
-    margin-top:15%;
-    margin-left: 45%;
+    margin-top:12%;
+    margin-left: 39%;
     padding: 20px;
     border-radius: 20px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -457,10 +457,11 @@ body{
 
 
 .login{
-    color: yellowgreen;
+    color:#51ACC5;
     text-align: center;
     font-size: 40px;
     font-weight: bold;
+    text-shadow: 5px 5px 7px lightblue;
 }
 
 form-group{
