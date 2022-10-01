@@ -11,14 +11,7 @@ body{
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    /* position: fixed; */
 }
-
-/* .clearfix::after {
-    content: "";
-    display: table; */
-    /* clear: both;
-} */
 
 .active{
     height: auto;
@@ -30,20 +23,14 @@ body{
 .search {
     display: inline-block;
     margin: 10px;
-    /* background-color: red; */
 }
 
 .search{
     padding: 5px 0;
-    width: 10%;
+    width: 40%;
     border-radius: 10px;
-    -webkit-transition: width 0.5s ease-in-out;
-    transition: width 0.5s ease-in-out;
 }
 
-.search:focus {
-    width: 40%;
-}
 
 .feather {
     color: cyan;
@@ -56,6 +43,9 @@ body{
     background-color: grey;
 }
 
+.form-inline .form-control{
+    width: 60em;
+}
 
 .navbar a {
   color: #f2f2f2;
@@ -76,7 +66,7 @@ body{
 }
 
 .navbar-right {
-    margin-left: 20px;
+    margin-left: 30px;
     padding: 10px;
     /* background-color: red; */
   /* float: right; */
@@ -249,19 +239,13 @@ body{
     text-decoration: none;
 }
 
-/* akhir Jefri */
 
 .contents{
     width:640px;
-    /* width: 680px; */
-    /* background-color: #2b2b2c; */
     margin-bottom: 40px;
     padding: 25px;
     border-radius: 3px;
     background-color: #333;
-    
-    
-
 }
 
 .p1{
@@ -269,23 +253,52 @@ body{
     text-align: start;
 }
 
+
 .img-box{
     position: relative;
     display: flex;
     justify-content:center;
     margin-top: 20px;
     margin-bottom:20px;
+    border-bottom: 2px solid white; 
+    padding-bottom: 40px;
 }
 
 .content-img{
     width:80%;
     height:80%;
-
     justify-content: center;
-
 }
 
 
+.img-icon{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    
+    
+}
+
+.img-icon li {
+    padding-left: 10px;
+}
+
+.img-icon li a {
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding-left: 10px;
+    text-align: center;
+    align-items:center;
+    display: flex;
+}
+
+.img-icon li a img{
+    width: 20px;
+    font-weight: 800;
+    color: white;
+    padding-right: 5px ;
+}
 
 
 /* by Jefri */
@@ -446,3 +459,9 @@ body{
 }
 
 /* PROFILE BY HANS */
+.logo{
+    background-color: #04AA6D;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 130%;
+    border-radius: 7%;
+}
