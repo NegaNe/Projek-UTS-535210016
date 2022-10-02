@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <script src="https://unpkg.com/feather-icons"></script>
+    
     <title>Forum</title>
 </head>
 <body>
@@ -27,47 +27,74 @@
         </div>
     </nav>
 
+
+    <!-- <div id="trend-caption">
+        <p>#1 Bedah rumah</p>
+        <p>#2 Politics</p>
+        <p>#3 Finance</p>
+        <p>#4 Programming</p>
+        </div> -->
+
     <!-- Trending -->
     <div class="container-trending">
-        <div class="isicontainer">
+
+            
             <div class="container-tulisanisi">
-            <p id="tulisan-trending">Trending today</p>
+
+                <p id="tulisan-trending">Trending now</p>
 
                 <div class="box-trending">
+                    <div class="top-text">#1 Finance</div>
                     <img src="https://images.unsplash.com/photo-1544765293-9bc7486a8dfa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" class="content-trending">
- 
                 </div> 
                 
                 <div class="box-trending">
+                    <div class="top-text">#2 Coronavirus</div>
+
                     <img src="https://images.unsplash.com/photo-1544765293-9bc7486a8dfa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" class="content-trending">
  
                 </div> 
 
                 <div class="box-trending">
+                    <div class="top-text">#3 Programming</div>
+
                     <img src="https://images.unsplash.com/photo-1544765293-9bc7486a8dfa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" class="content-trending">
  
                 </div> 
 
                 <div class="box-trending">
+                    <div class="top-text">#4 Politics</div>
+
                     <img src="https://images.unsplash.com/photo-1544765293-9bc7486a8dfa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" class="content-trending">
  
                 </div> 
             </div>
-        </div>
+
     </div>
 
     
     <div class="container_content">
 
-        <div id="header-button">
-            <button type="button" class="b_header">Post</button>
-            <button type="button" class="b_header">Communities</button>
-            <button type="button" class="b_header">People</button>
+        <div id="header-post">
+
+            <form id="header-profile">
+                <img src="https://images.unsplash.com/photo-1544765293-9bc7486a8dfa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" class="wp-img">
+                <input type="text" id="header-input" placeholder="Create Post...">
+            </form>
+
         </div>
 
-        <div id="popular_box">
-            Popular posts
+
+        <div id="header-button">
+            <button type="button" class="b_header">Best</button>
+            <button type="button" class="b_header">Hot</button>
+            <button type="button" class="b_header">New</button>
+            <button type="button" class="b_header">Top</button>
+            <button type="button" class="b_header">. . .</button>
+
         </div>
+
+
 
         <div id="header_content">
 
@@ -92,7 +119,7 @@
                         </ul>
                     </div>
 
-                    <p class = "p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit illum enim quia ea. Harum autem, odit corrupti ullam esserem possimus odit, eveniet ab voluptas distinctio maxime, officiis laudantium magnam vitae quasi voluptatum dolor incidunt laborum. Temporibus aliquam, quos nobis totam reprehenderit iste ipsa obcaecati veniam, rem facilis commodi non hic veritatis ad quaerat cumque numquam magni sint, eligendi dolore provident vel ducimus voluptatibus. Harum facere minus soluta eos quae autem minima nihil nemo itaque, sunt, suscipit dolores ipsam consequuntur hic sed rerum ipsum quibusdam modi magnam accusantium. Sint laborum nam accusantium cumque! Consequuntur doloremque tenetur deserunt dolorum doloribus molestias soluta beatae exercitationem non placeat architecto possimus, ratione blanditiis sapiente. Reiciendis enim laborum similique architecto sequi explicabo eius, doloribus assumenda error, quo, veniam quaerat magnam cumque nisi quam iure cum optio consectetur obcaecati ratione nemo? Obcaecati voluptate modi ipsum dicta culpa laboriosam, non architecto asperiores molestiae beatae vitae, recusandaeate velit recusandae iste? </p>
+                    <p class = "p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
 
 
                     <div class="img-box">
@@ -129,7 +156,7 @@
                         </ul>
                     </div>
 
-                    <p class = "p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit illum enim quia ea. Harum autem, odit corrupti ullam esserem possimus odit, eveniet ab voluptas distinctio maxime, officiis laudantium magnam vitae quasi voluptatum dolor incidunt laborum. Temporibus aliquam, quos nobis totam reprehenderit iste ipsa obcaecati veniam, rem facilis commodi non hic veritatis ad quaerat cumque numquam magni sint, eligendi dolore provident vel ducimus voluptatibus. Harum facere minus soluta eos quae autem minima nihil nemo itaque, sunt, suscipit dolores ipsam consequuntur hic sed rerum ipsum quibusdam modi magnam accusantium. Sint laborum nam accusantium cumque! Consequuntur doloremque tenetur deserunt dolorum doloribus molestias soluta beatae exercitationem non placeat architecto possimus, ratione blanditiis sapiente. Reiciendis enim laborum similique architecto sequi explicabo eius, doloribus assumenda error, quo, veniam quaerat magnam cumque nisi quam iure cum optio consectetur obcaecati ratione nemo? Obcaecati voluptate modi ipsum dicta culpa laboriosam, non architecto asperiores molestiae beatae vitae, recusandaeate velit recusandae iste? </p>
+                    <p class = "p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
 
 
                     <div class="img-box">
@@ -165,7 +192,7 @@
                         </ul>
                     </div>
 
-                    <p class = "p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit illum enim quia ea. Harum autem, odit corrupti ullam esserem possimus odit, eveniet ab voluptas distinctio maxime, officiis laudantium magnam vitae quasi voluptatum dolor incidunt laborum. Temporibus aliquam, quos nobis totam reprehenderit iste ipsa obcaecati veniam, rem facilis commodi non hic veritatis ad quaerat cumque numquam magni sint, eligendi dolore provident vel ducimus voluptatibus. Harum facere minus soluta eos quae autem minima nihil nemo itaque, sunt, suscipit dolores ipsam consequuntur hic sed rerum ipsum quibusdam modi magnam accusantium. Sint laborum nam accusantium cumque! Consequuntur doloremque tenetur deserunt dolorum doloribus molestias soluta beatae exercitationem non placeat architecto possimus, ratione blanditiis sapiente. Reiciendis enim laborum similique architecto sequi explicabo eius, doloribus assumenda error, quo, veniam quaerat magnam cumque nisi quam iure cum optio consectetur obcaecati ratione nemo? Obcaecati voluptate modi ipsum dicta culpa laboriosam, non architecto asperiores molestiae beatae vitae, recusandaeate velit recusandae iste? </p>
+                    <p class = "p1">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 
 
                     <div class="img-box">
@@ -201,7 +228,7 @@
                         </ul>
                     </div>
 
-                    <p class = "p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit illum enim quia ea. Harum autem, odit corrupti ullam esserem possimus odit, eveniet ab voluptas distinctio maxime, officiis laudantium magnam vitae quasi voluptatum dolor incidunt laborum. Temporibus aliquam, quos nobis totam reprehenderit iste ipsa obcaecati veniam, rem facilis commodi non hic veritatis ad quaerat cumque numquam magni sint, eligendi dolore provident vel ducimus voluptatibus. Harum facere minus soluta eos quae autem minima nihil nemo itaque, sunt, suscipit dolores ipsam consequuntur hic sed rerum ipsum quibusdam modi magnam accusantium. Sint laborum nam accusantium cumque! Consequuntur doloremque tenetur deserunt dolorum doloribus molestias soluta beatae exercitationem non placeat architecto possimus, ratione blanditiis sapiente. Reiciendis enim laborum similique architecto sequi explicabo eius, doloribus assumenda error, quo, veniam quaerat magnam cumque nisi quam iure cum optio consectetur obcaecati ratione nemo? Obcaecati voluptate modi ipsum dicta culpa laboriosam, non architecto asperiores molestiae beatae vitae, recusandaeate velit recusandae iste? </p>
+                    <p class = "p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
 
 
                     <div class="img-box">
@@ -234,7 +261,7 @@
             <div class="wrapper-trend">
                 <div class="trend-contents">
                     <div class="wrapper-judul"> 
-                        <p id = "rk">Rekomendasi Komunitas</p>
+                        <p id = "rk">Recommended Posts</p>
                     </div>
 
                     <div class="card-content">
