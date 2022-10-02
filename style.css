@@ -26,14 +26,10 @@ body{
 .search {
     display: inline-block;
     margin: 10px;
-}
-
-.search{
     padding: 5px 0;
     width: 40%;
     border-radius: 10px;
 }
-
 
 .feather {
     color: cyan;
@@ -93,13 +89,15 @@ body{
 }
 
 #trend-caption p{
-border:white solid 2px;
-color:white;
-display: inline-flex;
-margin-left: 12em;
-left:200px;
-font-size: 14pt;
+    border:white solid 2px;
+    color:white;
+    display: inline-flex;
+    margin-left: 12em;
+    left:200px;
+    font-size: 14pt;
 }
+
+
 /* Trending */
 .container-trending{
     max-width:100%;
@@ -107,23 +105,16 @@ font-size: 14pt;
     margin: 0 16em 0 16em;
     margin-bottom: 3%;
     left: 50%;
-    padding-top: 2em;
 }
 
-
-
-
 #tulisan-trending{
-    font-size: 20pt;
-margin-top: 50px;
-position: absolute;
-left: 30em;
-top:2em;
-
-
-color: white;
-    font-weight: 500;
-    
+    text-align: center;
+    font-size: 32px;
+    margin: auto;
+    padding: 10px 0 10px 0;
+    color: white;
+    font-weight: bold;
+    background-color:#51ACC5;
 }
 
 .foto_trending{
@@ -399,6 +390,11 @@ border: 1pt solid #404040;
 
 }
 
+.carousel-inner img{
+    background-color: #51ACC5;
+}
+
+
 
 
 .wrapper-judul{
@@ -435,8 +431,9 @@ border:white solid 1pt;
 }
 
 #rk{
-    font-size: 20px;
+    font-size: 32px;
     color:white;
+    font-style: bold;
     /* text-decoration: white; */
 }
 
@@ -550,7 +547,6 @@ border:white solid 1pt;
     background-color: #51ACC5;
     border:#51ACC5 7px solid ;
 }
-
 
 /* PROFILE BY HANS */
 
