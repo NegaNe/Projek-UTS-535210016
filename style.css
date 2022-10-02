@@ -252,6 +252,7 @@ body{
 
 .p1{
     padding-top: 5% ;
+    color:white;
     text-align: start;
 }
 
@@ -275,8 +276,9 @@ body{
 
 .img-icon{
     display: flex;
-    justify-content: left;
-    align-items: center;
+    justify-content: center;
+    /* align-items: center; */
+    /* border: 5px solid black; */
     
     
 }
