@@ -144,7 +144,7 @@ color: white;
 
 .box-trending{
     /* padding:1%; */
-
+    border : #04AA6D 7px solid;
     font-family: 'Montserrat', sans-serif;
     border-radius: 4%;
     /* display:inline-flex; */
