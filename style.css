@@ -26,14 +26,10 @@ body{
 .search {
     display: inline-block;
     margin: 10px;
-}
-
-.search{
     padding: 5px 0;
     width: 40%;
     border-radius: 10px;
 }
-
 
 .feather {
     color: cyan;
@@ -114,10 +110,11 @@ font-size: 14pt;
 
 
 #tulisan-trending{
-    font-size: 20pt;
+font-size: 20pt;
 margin-top: 50px;
+margin-bottom: 0em;
 position: absolute;
-left: 30em;
+left: 24.5em;
 top:2em;
 
 
