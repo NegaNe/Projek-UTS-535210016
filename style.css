@@ -1,9 +1,11 @@
 /* Navbar */
 body{
     background-color: #121212;
-    color: white;
+    /* color: white; */
 }
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Pacifico&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 
 .navbar {
     background-color: #333;
@@ -11,6 +13,7 @@ body{
     justify-content: space-around;
     align-items: center;
     width: 100%;
+    margin-bottom: 5%;
 }
 
 .active{
@@ -61,7 +64,7 @@ body{
 }
 
 .navbar a.active {
-  background-color: #04AA6D;
+  background-color: #51ACC5 ;
   color: white;
 }
 
@@ -82,24 +85,44 @@ body{
     transition: background-color ease-in-out .2s;
 }
 
+.header-button{
+    margin: 10px 5px 10px 0;
+    background-color: #2b2b2c;
+    padding:10px;
+    border-radius: 3px;
+}
+
+#trend-caption p{
+border:white solid 2px;
+color:white;
+display: inline-flex;
+margin-left: 12em;
+left:200px;
+font-size: 14pt;
+}
 /* Trending */
 .container-trending{
     max-width:100%;
     height:auto;
-    padding: 0 14%;
-    margin-bottom: 25px;
-    /* float: both; */
+    margin: 0 16em 0 16em;
+    margin-bottom: 3%;
+    left: 50%;
+    padding-top: 2em;
 }
 
-.isicontainer{
-    padding: 2%;
-}
+
 
 
 #tulisan-trending{
-    font-size: larger;
-    margin-left: 25px;
-    margin-bottom: 15px;
+    font-size: 20pt;
+margin-top: 50px;
+position: absolute;
+left: 30em;
+top:2em;
+
+
+color: white;
+    font-weight: 500;
     
 }
 
@@ -107,31 +130,53 @@ body{
     background-position: 50% top;
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 
 .container-tulisanisi{
-    display:flex;
-    justify-content: space-between;
-    background-color: yellowgreen;
-    padding-top: 11px;
+    justify-content: center;
+    display: flex;
+    /* background-color: #04AA6D; */
+    padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
-    border-radius: 20px;
+    border-radius: 10px;
+
 }
 
 .box-trending{
-    padding:1%;
-    width: auto;
-    height: auto;
+    /* padding:1%; */
+    border : #51ACC5 7px solid;
+    background-color: #51ACC5;
+
     font-family: 'Montserrat', sans-serif;
+    border-radius: 4%;
+    /* display:inline-flex; */
+    margin: 0 4% 1% 0;
+    
+    justify-content: center;
+    align-items: center;
+
 }
 
+.top-text{
+    position: relative;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+}
+.box-trending img{
+    width: 15em;
+    height: 12em;
+    display: flex;
+    
+}
+
+
 .content-trending{
-    padding: 4%;
-    background-color:white;
-    color: black;
-    border-radius: 20px;
-    text-align: justify;
+    width: 100%;
+    height: 100%;
+
 }
 
 
@@ -156,35 +201,56 @@ body{
     max-width:100%;
     height:auto;
     padding: 0 15%;
-    background-color: greenyellow;
+    background-color: #121212;
     
 }
 
+
+
 .b_header{
     margin: 10px 5px 10px 0;
-    background-color: #2b2b2c;
+    background-color: #1a1a1a;
     color: white;
-    border: none;
     border-radius: 20px;
-    padding:10px;
+    border:none;
+    margin-left: 1em;
+    padding:15px;
     cursor: pointer;
     transition: background-color ease-in-out .2s ;
+}
+
+.header-post{
+    margin: 10px 5px 10px 0;
+    background-color: #2b2b2c;
+    padding:15px;
+    border-radius: 3px;
+}
+
+.header-input{
+    background-color:#1a1a1a ;
+    width: 200em;
+    margin: .1em 1em .1em 1em;
+    
+}
+
+.header-input:focus{
+    background-color:#2b2b2c ;
+}
+
+.header-profile{
+    display: flex;
+    justify-content:start;
+left: 500px;
 }
 
 .b_header:hover{
     transition: background-color ease-in-out .2s ;
     background-color: gray;
+
 }
 
 
 
-#popular_box{
-    margin: 10px 5px 10px 0;
-    border: 1pt white solid;
-    background-color: #2b2b2c;
-    padding:10px;
-    border-radius: 3px;
-}
 
 #header_content{
     margin: 10px 5px 10px 0;
@@ -206,13 +272,19 @@ body{
 .contents{
     height: auto;
     width: auto;
-    /* border: 1% solid white ; */
+    border: 1pt solid #404040;
 }
 
-/* .contents:hover{
-    border: 3px solid white ;
-    background-color: white; 
-} */
+.contents-profile{
+height: auto;
+width: auto;
+border: 1pt solid #404040;
+}
+
+.contents:hover{
+    border: 1pt solid white ;
+    
+}
 
 .wrapper-profil{
     display: flex;
@@ -252,6 +324,7 @@ body{
 
 .p1{
     padding-top: 5% ;
+    color:white;
     text-align: start;
 }
 
@@ -275,10 +348,9 @@ body{
 
 .img-icon{
     display: flex;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
-    
-    
+
 }
 
 .img-icon li {
@@ -315,13 +387,11 @@ body{
     
 .wrapper-trend{
     padding-left:8%;
+    margin-right: 6px;
     width: auto;
     
-    
-    
-    
-    
 }
+
 
 .trend-contents{
     background-color: #333;
@@ -334,14 +404,14 @@ body{
 .wrapper-judul{
     width: auto;
     height: auto;
-    background-color: #04AA6D;
+    background-color: #51ACC5 ;
     padding: 7%;
     text-align: center;
 }
 
-#judul{
+/* #judul{
     
-}
+} */
 
 .card-content a{
     width: auto;
@@ -354,12 +424,19 @@ body{
     /* justify-content: flex; */
     color: white;
     text-decoration: none;
+    border: #121212 1pt solid;
+
+}
+
+.card-content a:hover{
 
 
+border:white solid 1pt;
 }
 
 #rk{
     font-size: 20px;
+    color:white;
     /* text-decoration: white; */
 }
 
@@ -368,6 +445,8 @@ body{
     font-size: 16px;
     text-transform: capitalize;
     padding-left: 4%;
+
+
 }
 
 .img-comunity{
@@ -397,7 +476,7 @@ body{
 }
 
 #footer{
-    color: black;
+    color: #121212;
     text-align: start;
     font-size: 13px;
 }
@@ -424,12 +503,32 @@ body{
 }
 /* akhir Jefri */
 
-.logo{
-    background-color: #04AA6D;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 130%;
-    border-radius: 7%;
+
+/* sign-up.html */
+
+.form-signup {
+    color: black;
+    margin: 100px auto;
+    padding: 20px;
+    width: 35%;
+    height: 50%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #51ACC5;
+
+    background-color: white;
 }
+
+.form-signup .signup {
+    color: #51ACC5 ;
+    text-align: center;
+    font-weight: bold;
+}
+
+.form-signup .form-group .form-check {
+    margin-top: 10px;
+}
+
+
 /* PROFILE BY HANS */
 
 
@@ -441,4 +540,106 @@ body{
     margin-top: 250px;
 }
 
+
+#profilebanner{
+    background-color: #51ACC5;
+    border:#51ACC5 7px solid ;
+}
+
+#profilecard{
+    background-color: #51ACC5;
+    border:#51ACC5 7px solid ;
+}
+
+
 /* PROFILE BY HANS */
+
+
+/*login by kf*/
+#tulisan-raddot{
+    margin-top: 12%;
+    max-width: fit-content;
+    margin-left: 22%;
+    color:lightblue;
+    font-size: 70px;
+    font-family: 'Fredoka One', cursive;
+    text-shadow: none;
+    transition: text-shadow ease-in-out .3s;
+    position: absolute;
+}
+
+.profile-img{
+left:64em;
+}
+
+
+
+#tulisan-raddot:hover{
+    text-shadow: 5px 5px 5px #51ACC5;
+    transition: text-shadow ease-in-out .3s;
+}
+
+.container-login{
+    background-color: whitesmoke;
+    max-width: 30%;
+    height:auto;
+    margin-top:12%;
+    margin-left: 39%;
+    padding: 20px;
+    border-radius: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 10px 10px 10px #51ACC5;
+} 
+
+
+.login{
+    color:#51ACC5;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 3px 3px 4px skyblue;
+}
+
+form-group{
+    margin-top: 30px;
+}
+
+.forgot{
+    margin-top:2.5%;
+    font-size: smaller;
+    position:flex;
+    padding-bottom: 20px;
+}
+
+.logo a{
+    font-size: 230%;
+    color:lightblue;
+    font-family: 'Fredoka One', cursive;
+
+}
+
+.logo a{
+    font-size: 230%;
+    color:lightblue;
+    font-family: 'Fredoka One', cursive;
+    transition: text-shadow ease-in-out .3s;
+
+}
+
+.logo a:hover{
+    text-shadow: 5px 5px 5px #51ACC5;
+    transition: text-shadow ease-in-out .3s;
+}
+
+
+/* #tulisan-raddot{
+    margin-top: 12%;
+    max-width: fit-content;
+    margin-left: 22%;
+    color:lightblue;
+    font-size: 70px;
+    font-family: 'Fredoka One', cursive;
+    text-shadow: none;
+    transition: text-shadow ease-in-out .3s;
+    position: absolute;
+} */
