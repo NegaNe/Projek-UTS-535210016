@@ -398,9 +398,9 @@ color: white;
     text-align: center;
 }
 
-#judul{
+/* #judul{
     
-}
+} */
 
 .card-content a{
     width: auto;
@@ -492,12 +492,31 @@ border:white solid 1pt;
 }
 /* akhir Jefri */
 
-.logo{
-    background-color: #04AA6D;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 130%;
-    border-radius: 7%;
+
+/* sign-up.html */
+
+.form-signup {
+    color: black;
+    margin: 100px auto;
+    padding: 20px;
+    width: 35%;
+    height: 50%;
+    border-radius: 10px;
+    box-shadow: 20px 15px 10px yellowgreen;
+    background-color: white;
 }
+
+.form-signup .signup {
+    color: yellowgreen;
+    text-align: center;
+    font-weight: bold;
+}
+
+.form-signup .form-group .form-check {
+    margin-top: 10px;
+}
+
+
 /* PROFILE BY HANS */
 
 
@@ -510,6 +529,7 @@ border:white solid 1pt;
 }
 
 /* PROFILE BY HANS */
+<<<<<<< HEAD
 
 /*login by kf*/
 #tulisan-raddot{
@@ -559,4 +579,11 @@ form-group{
     font-size: smaller;
     position:flex;
     padding-bottom: 20px;
+=======
+.logo{
+    background-color: #04AA6D;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 130%;
+    border-radius: 7%;
+>>>>>>> signup-style
 }
