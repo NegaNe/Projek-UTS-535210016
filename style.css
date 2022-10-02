@@ -529,7 +529,6 @@ border:white solid 1pt;
 }
 
 /* PROFILE BY HANS */
-<<<<<<< HEAD
 
 /*login by kf*/
 #tulisan-raddot{
@@ -579,11 +578,12 @@ form-group{
     font-size: smaller;
     position:flex;
     padding-bottom: 20px;
-=======
+}
+
 .logo{
     background-color: #04AA6D;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 130%;
     border-radius: 7%;
->>>>>>> signup-style
+
 }
