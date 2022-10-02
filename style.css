@@ -84,11 +84,20 @@ body{
     transition: background-color ease-in-out .2s;
 }
 
+#header-button{
+    margin: 10px 5px 10px 0;
+    border: 1pt white solid;
+    background-color: #2b2b2c;
+    padding:10px;
+    border-radius: 3px;
+}
+
 /* Trending */
 .container-trending{
     max-width:100%;
     height:auto;
     padding: 0 14%;
+    margin-bottom: 25px;
     /* float: both; */
 }
 
@@ -101,6 +110,8 @@ body{
     font-size: larger;
     margin-left: 25px;
     margin-bottom: 15px;
+    color: black;
+    font-weight: 500;
     
 }
 
@@ -111,27 +122,34 @@ body{
 }
 
 .container-tulisanisi{
-    display: flex;
-    justify-content: space-between;
-    /* padding: 10px; */
+    /* justify-content: space-between; */
+    background-color: coral;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
 }
 
 .box-trending{
-    padding:1%;
-    width: auto;
-    height: auto;
-    background-color: grey;
+    /* padding:1%; */
+    width: 16em;
+    height: 15em;
     font-family: 'Montserrat', sans-serif;
-    
-
+    border: black solid 5px;
+    display:inline-block;
+    margin: 0 4% 1% 0;
+    justify-content: center;
 }
 
 .content-trending{
-    padding: 4%;
-    background-color:white;
-    color: black;
-    border-radius: 20px;
-    text-align: justify;
+    
+    /* padding: 1%;
+    background-color:white; */
+    /* color: black; */
+    /* border-radius: 20px; */
+    width: 100%;
+    height: 100%;
+    /* text-align: justify; */
 }
 
 
@@ -156,24 +174,27 @@ body{
     max-width:100%;
     height:auto;
     padding: 0 15%;
-    background-color: greenyellow;
+    background-color: #121212;
     
 }
 
 .b_header{
     margin: 10px 5px 10px 0;
-    background-color: #2b2b2c;
+    background-color: #121212;
     color: white;
-    border: none;
+    border: 1pt #121212 solid;
     border-radius: 20px;
-    padding:10px;
+    margin-left: 1em;
+    padding:15px;
     cursor: pointer;
     transition: background-color ease-in-out .2s ;
 }
 
 .b_header:hover{
-    transition: background-color ease-in-out .2s ;
+    transition: background-color ease-in-out .1s ;
     background-color: gray;
+    border: 1pt white solid;
+
 }
 
 
@@ -206,13 +227,13 @@ body{
 .contents{
     height: auto;
     width: auto;
-    /* border: 1% solid white ; */
+    border: 1pt solid #404040;
 }
 
-/* .contents:hover{
-    border: 3px solid white ;
-    background-color: white; 
-} */
+.contents:hover{
+    border: 1pt solid white ;
+    
+}
 
 .wrapper-profil{
     display: flex;
@@ -277,8 +298,12 @@ body{
 .img-icon{
     display: flex;
     justify-content: center;
+<<<<<<< HEAD
     /* align-items: center; */
     /* border: 5px solid black; */
+=======
+    align-items: center;
+>>>>>>> homechanges---TrendingNow
     
     
 }
@@ -399,7 +424,7 @@ body{
 }
 
 #footer{
-    color: black;
+    color: #121212;
     text-align: start;
     font-size: 13px;
 }
