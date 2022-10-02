@@ -97,6 +97,7 @@ body{
     font-size: 14pt;
 }
 
+
 /* Trending */
 .container-trending{
     max-width:100%;
@@ -105,9 +106,6 @@ body{
     margin-bottom: 3%;
     left: 50%;
 }
-
-
-
 
 #tulisan-trending{
     text-align: center;
