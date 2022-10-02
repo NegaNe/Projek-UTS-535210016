@@ -130,6 +130,7 @@ color: white;
     background-position: 50% top;
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 
 .container-tulisanisi{
@@ -140,6 +141,7 @@ color: white;
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 10px;
+
 }
 
 .box-trending{
@@ -149,6 +151,7 @@ color: white;
     border-radius: 4%;
     /* display:inline-flex; */
     margin: 0 4% 1% 0;
+    
     justify-content: center;
     background-color: #04AA6D;
     align-items: center;
