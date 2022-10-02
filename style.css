@@ -64,7 +64,7 @@ body{
 }
 
 .navbar a.active {
-  background-color: #04AA6D;
+  background-color: #51ACC5 ;
   color: white;
 }
 
@@ -146,14 +146,15 @@ color: white;
 
 .box-trending{
     /* padding:1%; */
-    border : #04AA6D 7px solid;
+    border : #51ACC5 7px solid;
+    background-color: #51ACC5;
+
     font-family: 'Montserrat', sans-serif;
     border-radius: 4%;
     /* display:inline-flex; */
     margin: 0 4% 1% 0;
     
     justify-content: center;
-    background-color: #04AA6D;
     align-items: center;
 
 }
@@ -397,7 +398,7 @@ color: white;
 .wrapper-judul{
     width: auto;
     height: auto;
-    background-color: #04AA6D;
+    background-color: #51ACC5 ;
     padding: 7%;
     text-align: center;
 }
@@ -506,12 +507,12 @@ border:white solid 1pt;
     width: 35%;
     height: 50%;
     border-radius: 10px;
-    box-shadow: 20px 15px 10px yellowgreen;
+    box-shadow: 20px 15px 10px #51ACC5 ;
     background-color: white;
 }
 
 .form-signup .signup {
-    color: yellowgreen;
+    color: #51ACC5 ;
     text-align: center;
     font-weight: bold;
 }
@@ -547,6 +548,9 @@ border:white solid 1pt;
     position: absolute;
 }
 
+
+
+
 #tulisan-raddot:hover{
     text-shadow: 5px 5px 5px #51ACC5;
     transition: text-shadow ease-in-out .3s;
@@ -570,7 +574,7 @@ border:white solid 1pt;
     text-align: center;
     font-size: 40px;
     font-weight: bold;
-    text-shadow: 5px 5px 7px lightblue;
+    text-shadow: 3px 3px 4px skyblue;
 }
 
 form-group{
@@ -584,10 +588,35 @@ form-group{
     padding-bottom: 20px;
 }
 
-.logo{
-    background-color: #04AA6D;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 130%;
-    border-radius: 7%;
+.logo a{
+    font-size: 230%;
+    color:lightblue;
+    font-family: 'Fredoka One', cursive;
 
 }
+
+.logo a{
+    font-size: 230%;
+    color:lightblue;
+    font-family: 'Fredoka One', cursive;
+    transition: text-shadow ease-in-out .3s;
+
+}
+
+.logo a:hover{
+    text-shadow: 5px 5px 5px #51ACC5;
+    transition: text-shadow ease-in-out .3s;
+}
+
+
+/* #tulisan-raddot{
+    margin-top: 12%;
+    max-width: fit-content;
+    margin-left: 22%;
+    color:lightblue;
+    font-size: 70px;
+    font-family: 'Fredoka One', cursive;
+    text-shadow: none;
+    transition: text-shadow ease-in-out .3s;
+    position: absolute;
+} */
