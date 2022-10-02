@@ -513,7 +513,8 @@ border:white solid 1pt;
     width: 35%;
     height: 50%;
     border-radius: 10px;
-    box-shadow: 20px 15px 10px #51ACC5 ;
+    box-shadow: 10px 10px 10px #51ACC5;
+
     background-color: white;
 }
 
