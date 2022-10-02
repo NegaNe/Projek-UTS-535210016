@@ -13,7 +13,16 @@ body{
     justify-content: space-around;
     align-items: center;
     width: 100%;
+<<<<<<< HEAD
     margin-bottom: 5%;
+=======
+    /* margin-bottom: 250px; */
+}
+
+#profile-nav-box{
+margin-bottom: 150px;
+
+>>>>>>> profile-styling
 }
 
 .active{
@@ -275,9 +284,22 @@ color: white;
     border: 1pt solid #404040;
 }
 
+<<<<<<< HEAD
 .contents:hover{
     border: 1pt solid white ;
     
+=======
+/* by Hans */
+.contents-profile{
+    height: auto;
+    width: auto;
+    margin-left: 200px;
+    border: 1pt solid #2b2b2c;
+}
+
+.contents-profile:hover{
+    border: 1pt solid white ;
+>>>>>>> profile-styling
 }
 
 .wrapper-profil{
@@ -292,6 +314,7 @@ color: white;
     width: 36px;
     height: 36px;
     border-radius: 50%;
+    border:#04AA6D, 5px, solid;
  
 }
 
@@ -525,14 +548,15 @@ border:white solid 1pt;
 /* PROFILE BY HANS */
 
 
-.profile_img{
+.profile-img{
     float:right;
     width: 400px;
     height: 300px;
-    margin-right: 250px;
-    margin-top: 250px;
+    margin-right: 400px;
+
 }
 
+<<<<<<< HEAD
 /* PROFILE BY HANS */
 
 /*login by kf*/
@@ -546,10 +570,42 @@ border:white solid 1pt;
     text-shadow: none;
     transition: text-shadow ease-in-out .3s;
     position: absolute;
+=======
+/* .profile-imgbox{
+border: #04AA6D, 10px, solid;
+
+} */
+
+.card-img-top{
+    border-radius: 4%;
+    /* padding: 5px, 5px, 5px, 5px; */
+    background-color: #2b2b2c;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1pt white solid;
+
+}
+
+#posts-box{
+    height: auto;
+    width: auto;
+
+}
+
+#profile-box{
+
+}
+
+.card-text{
+display: flexbox;
+>>>>>>> profile-styling
 }
 
 
 
+<<<<<<< HEAD
 
 #tulisan-raddot:hover{
     text-shadow: 5px 5px 5px #51ACC5;
@@ -620,3 +676,23 @@ form-group{
     transition: text-shadow ease-in-out .3s;
     position: absolute;
 } */
+=======
+.profile-button{
+    font-size: 130%;
+    padding: .6em .6em .6em .6em;
+    margin: 0 10px;
+    display: inline-block;
+    width: auto;
+    background-color: #2b2b2c;
+    border:none;
+    border-radius: 10%;
+    color:white;
+}
+
+.profile-button:hover
+{
+transition: ease-in-out;
+background-color: #404040;
+}
+/* PROFILE BY HANS */
+>>>>>>> profile-styling
