@@ -79,6 +79,7 @@ body{
 .header-right:hover{
     background-color: #404040;
     transition: background-color ease-in-out .2s;
+    color: #51ACC5;
 }
 
 .header-button{
@@ -238,7 +239,7 @@ left: 500px;
 .b_header:hover{
     transition: background-color ease-in-out .2s ;
     background-color: gray;
-
+    color: #51ACC5;
 }
 
 
@@ -276,6 +277,18 @@ border: 1pt solid #404040;
 .contents:hover{
     border: 1pt solid white ;
     
+}
+
+.np{
+    color: white;
+}
+
+.np:hover{
+    color: #51ACC5;
+}
+
+.tp{
+    font-size: 11px;
 }
 
 .container-profil{
@@ -444,8 +457,10 @@ border:white solid 1pt;
     font-size: 16px;
     text-transform: capitalize;
     padding-left: 4%;
+}
 
-
+.isi-comunity:hover{
+    color: #51ACC5;
 }
 
 .img-comunity{
@@ -497,7 +512,7 @@ border:white solid 1pt;
 }
 
 .wrapper-bahasa-satu a:hover{
-    color: red;
+    color: #51ACC5;
     
 }
 /* akhir Jefri */
