@@ -1,14 +1,32 @@
+.all-wrapper{
+  width: auto;
+  height: 80vh;
+  /* margin: auto; */
+  display: flex;
+  justify-content:space-evenly ;
+  align-items: center;
+
+}
+
 #tulisan-raddot{
-  margin-top: 12%;
+  /* margin-top: 12%; */
   max-width: fit-content;
-  margin-left: 22%;
-  color:lightblue;
+  /* margin-left: 22%; */
+  color:white;
   font-size: 70px;
   font-family: 'Fredoka One', cursive;
   text-shadow: none;
   transition: text-shadow ease-in-out .3s;
-  position: absolute;
+  /* position: absolute; */
 }
+
+#slogan{
+  color: white;
+  font-size: 17px;
+}
+
+
+
 
 #backgroundimage{
   background: none url("img/Tree.png") no-repeat left;
@@ -16,15 +34,16 @@
 }
 
 .profile-img{
-left:64em;
+  left:64em;
 }
 
 .create{
-float: right;   
+  float: right;   
 }
 
 #tulisan-raddot:hover{
-  text-shadow: 5px 5px 5px #51ACC5;
+  /* text-shadow: 5px 5px 5px #51ACC5; */
+  color: #51ACC5;
   transition: text-shadow ease-in-out .3s;
 }
 
@@ -32,9 +51,9 @@ float: right;
   background-color: whitesmoke;
   max-width: 30%;
   height:auto;
-  margin-top:12%;
-  margin-left: 39%;
-  padding: 20px;
+  /* margin-top:12%; */
+  /* margin-left: 39%; */
+  /* padding: 20px; */
   border-radius: 20px;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   box-shadow: 10px 10px 10px #51ACC5;
@@ -54,7 +73,7 @@ form-group{
 }
 
 .forgot{
-  margin-top:2.5%;
+  /* margin-top:2.5%; */
   font-size: smaller;
   position:flex;
   padding-bottom: 20px;
