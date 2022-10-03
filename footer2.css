@@ -8,12 +8,12 @@
     background-color: grey;
 }
 
-.wrapper-f2{
+.wf-second{
     display: flex;
     justify-content: center;    
 }
 
-.wrapper-f2 li {
+.wf-second li {
     display: flex;    
     padding-left: 20px;
     padding-right: 20px;
@@ -21,7 +21,7 @@
     
 }
 
-.wrapper-f2 li a{
+.wf-second li a{
     text-decoration: none;
     text-transform: capitalize;
     color: white;
@@ -29,7 +29,7 @@
     font-size: 12px;
 }
 
-.wrapper-f2 li a:hover{
+.wf-second li a:hover{
     transition: text-shadow ease-in-out .3s;
     color:#51ACC5;
 }
@@ -39,3 +39,4 @@
     margin: auto;
     border-bottom: 1px solid white; 
 }
+
