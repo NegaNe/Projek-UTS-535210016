@@ -89,6 +89,50 @@ body{
     border-radius: 3px;
 }
 
+/* dropdown channel */
+.dropbtn {
+    background-color: #333 ;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:#333;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color:white;
+    padding-top: 12px;
+    padding-bottom :12px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: whitesmoke;
+    color:black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color:  #404040 ;
+    color: #51ACC5;
+}
+
 #trend-caption p{
     border:white solid 2px;
     color:white;
