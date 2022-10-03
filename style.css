@@ -346,6 +346,7 @@ border: 1pt solid #404040;
 
 .icon-hover:hover{
 background-color: #1a1a1a;
+border-radius: 15px;
 
 }
 
@@ -357,7 +358,6 @@ background-color: #1a1a1a;
 
 .img-icon li {
 padding: 5px 10px 5px 10px;
-
 }
 
 .img-icon li a {
