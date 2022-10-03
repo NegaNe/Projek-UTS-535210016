@@ -4,20 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reset.css">
-    <script src="https://unpkg.com/feather-icons"></script>
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Forum</title>
 </head>
 <body>
         
     <!-- Navbar -->
-    <nav class="navbar clearfix">
-        <!-- <span id="brand">For</span> -->
-        <a class="active" href="#home">Home</a>
+    <nav class="navbar sticky-top navbar-dark">
+        <div class="logo">
+            <a style="text-decoration: none;" href="index.html">Raddot</a>
+        </div> 
+        <!-- <a class="active" href="#home">Home</a> -->
         
-        <input type="text" class="search" placeholder="Write something here.....">
-        <a href="#" class="search-icon"><i data-feather="search"></i></a>
+        <form class="form-inline">
+            <input class="form-control m-2" type="text" placeholder="Search...." >
+          </form>
         <div class="navbar-right">
             <a class="header-right" href="#news">News</a>
             <a class="header-right" href="login.html">Log In</a>
@@ -25,55 +29,46 @@
         </div>
     </nav>
 
+
+    <!-- <div id="trend-caption">
+        <p>#1 Bedah rumah</p>
+        <p>#2 Politics</p>
+        <p>#3 Finance</p>
+        <p>#4 Programming</p>
+        </div> -->
+
     <!-- Trending -->
     <div class="container-trending">
-        <div class="isicontainer">
-            <p id="tulisan-trending">Trending today</p>
+
+            
             <div class="container-tulisanisi">
-                <div class="box-trending">
-                    <p class="content-trending">Lorem Ipsum is  but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
- 
-                </div> 
-                
-                <div class="box-trending">
-                    <p class="content-trending">Lorem Ipsum is  but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                </div> 
 
-                <div class="box-trending">
-                    <p class="content-trending">Lorem Ipsum is  but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                </div> 
-
-                <div class="box-trending">
-                    <p class="content-trending">Lorem Ipsum is  but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                </div> 
             </div>
-        </div>
     </div>
-
     
     <div class="container_content">
 
-        <div id="header-button">
-            <button type="button" class="b_header">Post</button>
-            <button type="button" class="b_header">Communities</button>
-            <button type="button" class="b_header">People</button>
-        </div>
+        <div class="header-post">
 
-        <div id="popular_box">
-            Popular posts
-        </div>
-
-        <div id="header_content">
+            <form class="header-profile">
+                <img href= "profile.html" src="https://images.unsplash.com/photo-1544765293-9bc7486a8dfa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" class="wp-img">
+                <input type="text" class="header-input" placeholder="Create Post...">
+            </form>
 
         </div>
 
-        
+
+        <div class="header-button">
+            <button type="button" class="b_header">Best</button>
+            <button type="button" class="b_header">Hot</button>
+            <button type="button" class="b_header">New</button>
+            <button type="button" class="b_header">Top</button>
+            <button type="button" class="b_header">. . .</button>
+
+        </div>
 
         <div class="wrapper-content">
-
-
             <div class="main-content">
-                
                 <!-- POSTAN 1 -->
                 <div class="contents">
                     
@@ -157,12 +152,12 @@
                         <img src="https://images.unsplash.com/photo-1544765293-9bc7486a8dfa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" class="wp-img">
 
                         <ul class="profil">
-                            <li><a href = "#"class="np">Acikiwirkurlala</a></li>
+                            <li><a href = "profile.html"class="np">Acikiwirkurlala</a></li>
                             <li><a class="tp">hari ini 06:07</a></li>
                         </ul>
                     </div>
 
-                    <p class = "p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit illum enim quia ea. Harum autem, odit corrupti ullam esserem possimus odit, eveniet ab voluptas distinctio maxime, officiis laudantium magnam vitae quasi voluptatum dolor incidunt laborum. Temporibus aliquam, quos nobis totam reprehenderit iste ipsa obcaecati veniam, rem facilis commodi non hic veritatis ad quaerat cumque numquam magni sint, eligendi dolore provident vel ducimus voluptatibus. Harum facere minus soluta eos quae autem minima nihil nemo itaque, sunt, suscipit dolores ipsam consequuntur hic sed rerum ipsum quibusdam modi magnam accusantium. Sint laborum nam accusantium cumque! Consequuntur doloremque tenetur deserunt dolorum doloribus molestias soluta beatae exercitationem non placeat architecto possimus, ratione blanditiis sapiente. Reiciendis enim laborum similique architecto sequi explicabo eius, doloribus assumenda error, quo, veniam quaerat magnam cumque nisi quam iure cum optio consectetur obcaecati ratione nemo? Obcaecati voluptate modi ipsum dicta culpa laboriosam, non architecto asperiores molestiae beatae vitae, recusandaeate velit recusandae iste? </p>
+                    <p class = "p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
 
 
                     <div class="img-box">
@@ -194,12 +189,16 @@
                         <img src="https://images.unsplash.com/photo-1544765293-9bc7486a8dfa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" class="wp-img">
 
                         <ul class="profil">
+<<<<<<< HEAD
                             <li><a href = "#"class="np">Jakarta Beatbox</a></li>
+=======
+                            <li><a href = "profile.html"class="np">Acikiwirkurlala</a></li>
+>>>>>>> main
                             <li><a class="tp">hari ini 06:07</a></li>
                         </ul>
                     </div>
 
-                    <p class = "p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit illum enim quia ea. Harum autem, odit corrupti ullam esserem possimus odit, eveniet ab voluptas distinctio maxime, officiis laudantium magnam vitae quasi voluptatum dolor incidunt laborum. Temporibus aliquam, quos nobis totam reprehenderit iste ipsa obcaecati veniam, rem facilis commodi non hic veritatis ad quaerat cumque numquam magni sint, eligendi dolore provident vel ducimus voluptatibus. Harum facere minus soluta eos quae autem minima nihil nemo itaque, sunt, suscipit dolores ipsam consequuntur hic sed rerum ipsum quibusdam modi magnam accusantium. Sint laborum nam accusantium cumque! Consequuntur doloremque tenetur deserunt dolorum doloribus molestias soluta beatae exercitationem non placeat architecto possimus, ratione blanditiis sapiente. Reiciendis enim laborum similique architecto sequi explicabo eius, doloribus assumenda error, quo, veniam quaerat magnam cumque nisi quam iure cum optio consectetur obcaecati ratione nemo? Obcaecati voluptate modi ipsum dicta culpa laboriosam, non architecto asperiores molestiae beatae vitae, recusandaeate velit recusandae iste? </p>
+                    <p class = "p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
 
 
                     <div class="img-box">
@@ -229,12 +228,17 @@
                         <img src="https://images.unsplash.com/photo-1544765293-9bc7486a8dfa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" class="wp-img">
 
                         <ul class="profil">
+<<<<<<< HEAD
                             <li><a href = "#"class="np">Gabut Bareng
                             </a></li>
+=======
+                            <li><a href = "profile.html"class="np">Acikiwirkurlala</a></li>
+>>>>>>> main
                             <li><a class="tp">hari ini 06:07</a></li>
                         </ul>
                     </div>
 
+<<<<<<< HEAD
                     <p class = "p1">
                     Nongkrong Kuy, yang mau aja...     
                     </p>
@@ -242,6 +246,49 @@
 
                     <div class="img-box">
                         <!-- <img src="https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dmlld3xlbnwwfHwwfHw%3D&w=1000&q=80" class="content-img"> -->
+=======
+                    <p class = "p1">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+
+                    <div class="img-box">
+                        <img src="https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dmlld3xlbnwwfHwwfHw%3D&w=1000&q=80" class="content-img">
+                    </div>
+                    
+                    <ul class="img-icon">
+
+                        <li><a href="#"><img src ="img/like.png">like</a></li>
+
+                        <li><a href="#"><img src ="img/unlike.png">unlike</a></li>
+
+                        <li><a href="#"><img src ="img/share.png">share</a></li>
+
+                        <li><a href="#"><img src ="img/comment.png">comment</a></li>
+
+                        <li><a href="#"><img src ="img/saved.png">save</a></li>
+                        
+                    </ul>
+
+                </div>
+
+
+                <!-- POSTAN 4 -->
+                <div class="contents">
+                    
+                    <div class="wrapper-profil">
+                        <img src="https://images.unsplash.com/photo-1544765293-9bc7486a8dfa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" class="wp-img">
+
+                        <ul class="profil">
+                            <li><a href = "profile.html"class="np">Acikiwirkurlala</a></li>
+                            <li><a class="tp">hari ini 06:07</a></li>
+                        </ul>
+                    </div>
+
+                    <p class = "p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+
+
+                    <div class="img-box">
+                        <img src="https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dmlld3xlbnwwfHwwfHw%3D&w=1000&q=80" class="content-img">
+>>>>>>> main
                     </div>
 
                     <ul class="img-icon">
@@ -266,11 +313,65 @@
             
             <!-- by JEFRI -->
             <div class="wrapper-trend">
+
+
+
+                
                 <div class="trend-contents">
+
+                    <p id="tulisan-trending">Trending now</p>
+
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" width="300px" height="200px">
+                        <ol class="carousel-indicators">
+                          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="https://images.unsplash.com/photo-1544765293-9bc7486a8dfa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Programming</h5>
+                            </div>
+                        </div>
+                          <div class="carousel-item">
+                            <img src="https://images.unsplash.com/photo-1544765293-9bc7486a8dfa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Photography</h5>
+                            </div>
+                        </div>
+                          <div class="carousel-item">
+                            <img src="https://images.unsplash.com/photo-1544765293-9bc7486a8dfa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Politics</h5>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="https://images.unsplash.com/photo-1544765293-9bc7486a8dfa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Cats</h5>
+                            </div>
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                        </button>
+                      </div>
+
+
                     <div class="wrapper-judul"> 
-                        <p id = "rk">Rekomendasi Komunitas</p>
+                        <p id = "rk">Recommended Posts</p>
                     </div>
 
+
+
+                    
                     <div class="card-content">
                         <a href="#">
                             <img src="https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dmlld3xlbnwwfHwwfHw%3D&w=1000&q=80" class="img-comunity">
@@ -342,6 +443,21 @@
         
     
     <!-- Icon Framework jgn diganggu + jgn diapa apain dolo, hrs di plg bwh -->
+    <script src = "https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+         integrity = "sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+         crossorigin = "anonymous">
+    </script>
+
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" 
+        integrity = "sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" 
+        crossorigin = "anonymous">
+    </script>
+
+    <script src = "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" 
+        integrity = "sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" 
+        crossorigin = "anonymous">
+    </script>
+
     <script>
         feather.replace()
     </script>
