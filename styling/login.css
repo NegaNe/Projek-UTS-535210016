@@ -8,6 +8,10 @@
 
 }
 
+.container-brand{
+  width: 450px;
+}
+
 #tulisan-raddot{
   /* margin-top: 12%; */
   max-width: fit-content;
@@ -22,7 +26,8 @@
 
 #slogan{
   color: white;
-  font-size: 17px;
+  font-size: 24px;
+  display: block;
 }
 
 
@@ -53,10 +58,12 @@
   height:auto;
   /* margin-top:12%; */
   /* margin-left: 39%; */
-  /* padding: 20px; */
+  padding: 20px;
   border-radius: 20px;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
-  box-shadow: 10px 10px 10px #51ACC5;
+  /* box-shadow: 4px 4px 7px #51ACC5; */
+  box-shadow: 6px 6px 9px rgb(121, 118, 118); 
+  /* box-shadow: 5px 5px blue, -10px -10px red, 15px 15px green; */
 } 
 
 
@@ -64,8 +71,11 @@
   color:#51ACC5;
   text-align: center;
   font-size: 40px;
-  font-weight: bold;
-  text-shadow: 3px 3px 4px skyblue;
+  font-weight: 700;
+  font-family: 'Roboto', arial, sans-serif;
+  /* font-family: 'Fredoka One', cursive; */
+  text-shadow:  -2px -2px  black;
+  
 }
 
 form-group{
