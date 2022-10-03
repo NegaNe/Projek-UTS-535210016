@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+.container-f2{
+    height: auto;
+    width: auto;
+    border-top: 1px solid white; 
+}
+
+.wrapper-f2{
+    display: flex;
+    font-family: 'Roboto', arial, sans-serif;
+    justify-content: center;
+    
+    
+}
+
+.wrapper-f2 li {
+    display: flex;    
+    padding: 10px;
+}
