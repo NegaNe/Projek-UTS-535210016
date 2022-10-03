@@ -611,23 +611,23 @@ form-group{
     padding-bottom: 20px;
 }
 
-.logo a{
+/* .logo a{
     font-size: 230%;
     color:lightblue;
     font-family: 'Fredoka One', cursive;
 
-}
+} */
 
 .logo a{
     font-size: 230%;
-    color:lightblue;
-    font-family: 'Fredoka One', cursive;
+    color:white;
     transition: text-shadow ease-in-out .3s;
-
+    
 }
 
 .logo a:hover{
-    text-shadow: 5px 5px 5px #51ACC5;
+    /* text-shadow: 5px 5px 5px #51ACC5; */
     transition: text-shadow ease-in-out .3s;
+    color:#51ACC5;
 }
 
