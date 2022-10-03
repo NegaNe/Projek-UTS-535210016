@@ -507,13 +507,12 @@ border:white solid 1pt;
 
 .form-signup {
     color: black;
-    margin: 100px auto;
+    margin: 80px auto;
     padding: 20px;
     width: 35%;
     height: 50%;
     border-radius: 10px;
     box-shadow: 10px 10px 10px #51ACC5;
-
     background-color: white;
 }
 
