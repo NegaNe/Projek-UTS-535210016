@@ -138,17 +138,10 @@ body{
 }
 
 .box-trending{
-<<<<<<< HEAD
     padding:1%;
     width: auto;
     height: auto;
     /* background-color: grey; */
-=======
-    /* padding:1%; */
-    border : #51ACC5 7px solid;
-    background-color: #51ACC5;
-
->>>>>>> main
     font-family: 'Montserrat', sans-serif;
     border-radius: 4%;
     /* display:inline-flex; */
