@@ -1,20 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+/* Untuk footer */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
 
 .container-f2{
     height: auto;
-    width: auto;
-    border-top: 1px solid white; 
+    width: 100%;
+    height: 500px;
+    background-color: grey;
 }
 
 .wrapper-f2{
     display: flex;
-    font-family: 'Roboto', arial, sans-serif;
-    justify-content: center;
-    
-    
+    justify-content: center;    
 }
 
 .wrapper-f2 li {
     display: flex;    
-    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 60px;
+    
+}
+
+.wrapper-f2 li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 12px;
+}
+
+.wrapper-f2 li a:hover{
+    transition: text-shadow ease-in-out .3s;
+    color:#51ACC5;
+}
+
+.line{
+    width: 40%;
+    margin: auto;
+    border-bottom: 1px solid white; 
 }
