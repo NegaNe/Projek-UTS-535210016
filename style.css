@@ -379,6 +379,7 @@ border: 1pt solid #404040;
 }
     
 .wrapper-trend{
+    margin-left:auto;
     padding-left:8%;
     margin-right: 6px;
     width: 400px;
