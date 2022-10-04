@@ -1,17 +1,35 @@
+.raddot-signup{
+    font-size: 70px;
+    font-family: 'Fredoka One', cursive;
+    color: lightblue;
+    margin: 20px auto;
+}
+.raddot-signup p{
+    text-align: center;
+    text-shadow: 5px 0 5px crimson, 0 5px 5px #51ACC5;
+}
+
+.or-text {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 5px;
+    color: #51ACC5;
+}
+
 .form-signup {
     color: black;
-    margin: 100px auto;
+    margin: 50px auto;
     padding: 20px;
     width: 35%;
     height: 50%;
     border-radius: 10px;
-    box-shadow: 10px 10px 10px #51ACC5;
-
+    box-shadow: 10px 0 10px #51ACC5, 0 10px 10px crimson;
     background-color: white;
 }
 
 .form-signup .signup {
-    color: #51ACC5 ;
+    color: rgb(0, 0, 0);
     text-align: center;
     font-weight: bold;
 }
