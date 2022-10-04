@@ -622,7 +622,7 @@ form-group{
     font-size: 230%;
     color:white;
     transition: text-shadow ease-in-out .3s;
-    
+    font-family: 'Fredoka One', cursive;
 }
 
 .logo a:hover{
