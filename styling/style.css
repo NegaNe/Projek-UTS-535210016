@@ -263,6 +263,16 @@ body{
     border-radius: 3px;
 }
 
+
+.icon-post{
+    display:inline-flex;
+}
+
+#post-icons{
+    width: 5em;
+    height: 5em;
+}
+
 .header-input{
     background-color:#1a1a1a ;
     width: 200em;
