@@ -1,0 +1,20 @@
+/* PROFILE BY HANS */
+.profile_img{
+  float:right;
+  width: 400px;
+  height: 300px;
+  margin-right: 250px;
+  margin-top: 250px;
+}
+
+
+#profilebanner{
+  background-color: #51ACC5;
+  border:#51ACC5 7px solid ;
+}
+
+#profilecard{
+  background-color: #51ACC5;
+  border:#51ACC5 7px solid ;
+}
+/* PROFILE BY HANS */
