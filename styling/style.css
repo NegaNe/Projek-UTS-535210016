@@ -43,7 +43,7 @@ body{
 }
 
 .form-inline .form-control{
-    width: 60em;
+    width: 45em;
 }
 
 .navbar a {
@@ -65,7 +65,8 @@ body{
 }
 
 .navbar-right {
-    margin-left: 30px;
+    margin-left:30px;
+    margin-right: 50px;
     padding: 10px;
     /* background-color: red; */
   /* float: right; */
@@ -79,6 +80,7 @@ body{
 .header-right:hover{
     background-color: #404040;
     transition: background-color ease-in-out .2s;
+    color: #51ACC5;
 }
 
 .header-button{
@@ -86,6 +88,50 @@ body{
     background-color: #2b2b2c;
     padding:10px;
     border-radius: 3px;
+}
+
+/* dropdown channel */
+.dropbtn {
+    background-color: #333 ;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:#333;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color:white;
+    padding-top: 12px;
+    padding-bottom :12px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: whitesmoke;
+    color:black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color:  #404040 ;
+    color: #51ACC5;
 }
 
 #trend-caption p{
@@ -238,7 +284,7 @@ left: 500px;
 .b_header:hover{
     transition: background-color ease-in-out .2s ;
     background-color: gray;
-
+    color: #51ACC5;
 }
 
 
@@ -276,6 +322,18 @@ border: 1pt solid #404040;
 .contents:hover{
     border: 1pt solid white ;
     
+}
+
+.np{
+    color: white;
+}
+
+.np:hover{
+    color: #51ACC5;
+}
+
+.tp{
+    font-size: 11px;
 }
 
 .container-profil{
@@ -444,8 +502,10 @@ border:white solid 1pt;
     font-size: 16px;
     text-transform: capitalize;
     padding-left: 4%;
+}
 
-
+.isi-comunity:hover{
+    color: #51ACC5;
 }
 
 .img-comunity{
@@ -497,7 +557,7 @@ border:white solid 1pt;
 }
 
 .wrapper-bahasa-satu a:hover{
-    color: red;
+    color: #51ACC5;
     
 }
 /* akhir Jefri */
