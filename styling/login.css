@@ -13,14 +13,12 @@
 }
 
 #tulisan-raddot{
-  /* margin-top: 12%; */
   max-width: fit-content;
-  /* margin-left: 22%; */
-  color:white;
   font-size: 70px;
-  font-family: 'Fredoka One', cursive;
-  text-shadow: none;
+  color:white;
   transition: text-shadow ease-in-out .3s;
+  text-shadow: 0px 5px 2px crimson, 3px 5px 2px #51ACC5;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   /* position: absolute; */
 }
 
@@ -47,9 +45,8 @@
 }
 
 #tulisan-raddot:hover{
-  /* text-shadow: 5px 5px 5px #51ACC5; */
-  color: #51ACC5;
   transition: text-shadow ease-in-out .3s;
+  text-shadow: 0px 5px 2px #51ACC5, 3px 0px 2px crimson;
 }
 
 .container-login{
