@@ -155,11 +155,11 @@ body{
 
 #tulisan-trending{
     text-align: center;
-    font-size: 32px;
+    font-size: 26px;
     margin: auto;
     padding: 10px 0 10px 0;
     color: white;
-    font-weight: bold;
+    font-weight: 550;
     background-color:#51ACC5;
 }
 
@@ -437,32 +437,37 @@ border: 1pt solid #404040;
 }
     
 .wrapper-trend{
+    margin-left:auto;
     padding-left:8%;
     margin-right: 6px;
-    width: auto;
-    
+    width: 400px;
 }
 
-
-.trend-contents{
+/* .trend-contents{
     background-color: #333;
-     
 
-}
+} */
+
 
 .carousel-inner img{
     background-color: #51ACC5;
 }
 
 
+.rk-container{
+    width: auto;
+    margin-top: 60px;
+    background-color: #333
+}
 
 
 .wrapper-judul{
     width: auto;
-    height: auto;
+    height: 85px;
     background-color: #51ACC5 ;
     padding: 7%;
     text-align: center;
+
 }
 
 /* #judul{
@@ -471,6 +476,7 @@ border: 1pt solid #404040;
 
 .card-content a{
     width: auto;
+    height: 60px;
     text-transform:capitalize ;
     padding: 20px;
     border-bottom: 2px solid white;
@@ -491,9 +497,9 @@ border:white solid 1pt;
 }
 
 #rk{
-    font-size: 32px;
+    font-size: 26px;
     color:white;
-    font-style: bold;
+    font-weight: 550;
     /* text-decoration: white; */
 }
 
