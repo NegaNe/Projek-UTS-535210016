@@ -24,6 +24,12 @@
   /* position: absolute; */
 }
 
+#tulisan-raddot:hover{
+  /* text-shadow: 5px 5px 5px #51ACC5; */
+  color: #51ACC5;
+  transition: text-shadow ease-in-out .3s;
+}
+
 #slogan{
   color: white;
   font-size: 24px;
@@ -38,9 +44,9 @@
   background-size: cover;
 }
 
-.profile-img{
+/* .profile-img{
   left:64em;
-}
+} */
 
 .create{
   float: right;   
