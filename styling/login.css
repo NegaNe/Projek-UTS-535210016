@@ -1,28 +1,28 @@
-.all-wrapper{
+.all-wrapper {
   width: auto;
   height: 80vh;
   /* margin: auto; */
   display: flex;
-  justify-content:space-evenly ;
+  justify-content: space-evenly;
   align-items: center;
 
 }
 
-.container-brand{
+.container-brand {
   width: 450px;
 }
 
-#tulisan-raddot{
+#tulisan-raddot {
   max-width: fit-content;
   font-size: 70px;
-  color:white;
+  color: white;
   transition: text-shadow ease-in-out .3s;
   text-shadow: 0px 5px 2px crimson, 3px 5px 2px #51ACC5;
   font-family: Georgia, 'Times New Roman', Times, serif;
   /* position: absolute; */
 }
 
-#slogan{
+#slogan {
   color: white;
   font-size: 24px;
   display: block;
@@ -31,57 +31,57 @@
 
 
 
-#backgroundimage{
+#backgroundimage {
   background: none url("img/Trees.png") no-repeat left;
   background-size: cover;
 }
 
-.profile-img{
-  left:64em;
+.profile-img {
+  left: 64em;
 }
 
-.create{
-  float: right;   
+.create {
+  float: right;
 }
 
-#tulisan-raddot:hover{
+#tulisan-raddot:hover {
   transition: text-shadow ease-in-out .3s;
   text-shadow: 0px 5px 2px #51ACC5, 3px 0px 2px crimson;
 }
 
-.container-login{
+.container-login {
   background-color: whitesmoke;
   max-width: 30%;
-  height:auto;
+  height: auto;
   /* margin-top:12%; */
   /* margin-left: 39%; */
   padding: 20px;
   border-radius: 20px;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   /* box-shadow: 4px 4px 7px #51ACC5; */
-  box-shadow: 6px 6px 9px rgb(121, 118, 118); 
+  box-shadow: 6px 6px 9px rgb(121, 118, 118);
   /* box-shadow: 5px 5px blue, -10px -10px red, 15px 15px green; */
-} 
+}
 
 
-.login{
-  color:#51ACC5;
+.login {
+  color: #51ACC5;
   text-align: center;
   font-size: 40px;
   font-weight: 700;
   font-family: 'Roboto', arial, sans-serif;
   /* font-family: 'Fredoka One', cursive; */
-  text-shadow:  -2px -2px  black;
-  
+  text-shadow: -2px -2px black;
+
 }
 
-form-group{
+form-group {
   margin-top: 30px;
 }
 
-.forgot{
+.forgot {
   /* margin-top:2.5%; */
   font-size: smaller;
-  position:flex;
+  position: flex;
   padding-bottom: 20px;
 }
