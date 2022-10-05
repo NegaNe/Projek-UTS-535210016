@@ -11,6 +11,7 @@
 .container-brand {
   margin-top: 5%;
   width: 450px;
+
 }
 
 #tulisan-raddot {
@@ -29,9 +30,6 @@
   display: block;
 }
 
-
-
-
 #backgroundimage {
   background: none url("img/Trees.png") no-repeat left;
   background-size: cover;
@@ -48,17 +46,23 @@
 #tulisan-raddot:hover {
   transition: text-shadow ease-in-out .3s;
   text-shadow: 0px 5px 2px #51ACC5, 3px 0px 2px crimson;
+line-height: fixed;
+
 }
 
 .container-login {
-  background-color: whitesmoke;
+background-color: whitesmoke;
   max-width: 30%;
+  max-height: 80%;
   height: auto;
+  /* position:static; */
   margin-top:5%;
   padding: 20px;
   border-radius: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   box-shadow: 6px 6px 9px rgb(121, 118, 118);
+  overflow: auto;
+
 }
 
 
@@ -69,12 +73,15 @@
 }
 
 form-group {
+  position:static;
+  
   margin-top: 30px;
 }
 
 .forgot {
+  
   /* margin-top:2.5%; */
   font-size: smaller;
-  position: flex;
-  padding-bottom: 20px;
+  position:static;
+  padding-top: 20px;
 }
