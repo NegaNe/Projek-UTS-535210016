@@ -314,10 +314,17 @@ left: 500px;
 
 /* by Jefri */
 .contents{
-    height: auto;
-    width: auto;
+    width: 200em;
     border: 1pt solid #404040;
+
+
 }
+
+.contents:hover{
+    border: 1pt solid white ;
+    
+}
+
 
 .contents-profile{
 height: auto;
@@ -325,10 +332,7 @@ width: auto;
 border: 1pt solid #404040;
 }
 
-.contents:hover{
-    border: 1pt solid white ;
-    
-}
+
 
 .np{
 
@@ -515,7 +519,8 @@ border:white solid 1pt;
 .isi-comunity{
     font-size: 16px;
     text-transform: capitalize;
-    padding-left: 4%;
+    padding-left: 1em;
+    padding-top: 1em;
 }
 
 .isi-comunity:hover{
@@ -552,6 +557,7 @@ border:white solid 1pt;
     color: #121212;
     text-align: start;
     font-size: 13px;
+    margin-left: .5em;
 }
 
 .wrapper-bahasa-satu{
