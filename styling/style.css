@@ -536,12 +536,12 @@ border:white solid 1pt;
 .container-bf{
     width: auto;
     height: auto;
-    background-color: rgb(80, 69, 69);
+    background-color: #51ACC5;
     position: sticky;
     top: 70px;
 }
 
-.container-bahasa{
+.container-agreement{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -560,24 +560,20 @@ border:white solid 1pt;
     margin-left: .5em;
 }
 
-.wrapper-bahasa-satu{
+.wrapper-agreement-satu{
     text-transform: capitalize;
-
-}
-
-.wrapper-bahasa-satu {
     padding: 5% 0;
 }
 
-.wrapper-bahasa-satu a{
+.wrapper-agreement-satu a{
     color: white;
     font-size: 12px;
     text-decoration: none;
     padding: 3px;
 }
 
-.wrapper-bahasa-satu a:hover{
-    color: #51ACC5;
+.wrapper-agreement-satu a:hover{
+    text-decoration: underline;
     
 }
 /* akhir Jefri */
