@@ -9,6 +9,7 @@
 }
 
 .container-brand {
+  margin-top: 5%;
   width: 450px;
 }
 
@@ -53,26 +54,18 @@
   background-color: whitesmoke;
   max-width: 30%;
   height: auto;
-  /* margin-top:12%; */
-  /* margin-left: 39%; */
+  margin-top:5%;
   padding: 20px;
   border-radius: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  /* box-shadow: 4px 4px 7px #51ACC5; */
   box-shadow: 6px 6px 9px rgb(121, 118, 118);
-  /* box-shadow: 5px 5px blue, -10px -10px red, 15px 15px green; */
 }
 
 
 .login {
-  color: #51ACC5;
+  color: rgb(0, 0, 0);
   text-align: center;
-  font-size: 40px;
-  font-weight: 700;
-  font-family: 'Roboto', arial, sans-serif;
-  /* font-family: 'Fredoka One', cursive; */
-  text-shadow: -2px -2px black;
-
+  font-weight: bold;
 }
 
 form-group {
