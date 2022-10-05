@@ -1,87 +1,90 @@
-.all-wrapper {
+.all-wrapper{
   width: auto;
   height: 80vh;
   /* margin: auto; */
   display: flex;
-  justify-content: space-evenly;
+  justify-content:space-evenly ;
   align-items: center;
 
 }
 
-.container-brand {
-  margin-top: 5%;
+.container-brand{
   width: 450px;
-
 }
 
-#tulisan-raddot {
+#tulisan-raddot{
+  /* margin-top: 12%; */
   max-width: fit-content;
+  /* margin-left: 22%; */
+  color:white;
   font-size: 70px;
-  color: white;
+  font-family: 'Fredoka One', cursive;
+  text-shadow: none;
   transition: text-shadow ease-in-out .3s;
-  text-shadow: 0px 5px 2px crimson, 3px 5px 2px #51ACC5;
-  font-family: Georgia, 'Times New Roman', Times, serif;
   /* position: absolute; */
 }
 
-#slogan {
+#slogan{
   color: white;
   font-size: 24px;
   display: block;
 }
 
-#backgroundimage {
+
+
+
+#backgroundimage{
   background: none url("img/Trees.png") no-repeat left;
   background-size: cover;
 }
 
-.profile-img {
-  left: 64em;
+.profile-img{
+  left:64em;
 }
 
-.create {
-  float: right;
+.create{
+  float: right;   
 }
 
-#tulisan-raddot:hover {
+#tulisan-raddot:hover{
+  /* text-shadow: 5px 5px 5px #51ACC5; */
+  color: #51ACC5;
   transition: text-shadow ease-in-out .3s;
-  text-shadow: 0px 5px 2px #51ACC5, 3px 0px 2px crimson;
-line-height: fixed;
-
 }
 
-.container-login {
-background-color: whitesmoke;
+.container-login{
+  background-color: whitesmoke;
   max-width: 30%;
-  max-height: 80%;
-  height: auto;
-  /* position:static; */
-  margin-top:5%;
+  height:auto;
+  /* margin-top:12%; */
+  /* margin-left: 39%; */
   padding: 20px;
   border-radius: 20px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  box-shadow: 6px 6px 9px rgb(121, 118, 118);
-  overflow: auto;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  /* box-shadow: 4px 4px 7px #51ACC5; */
+  box-shadow: 6px 6px 9px rgb(121, 118, 118); 
+  /* box-shadow: 5px 5px blue, -10px -10px red, 15px 15px green; */
+} 
 
-}
 
-
-.login {
-  color: rgb(0, 0, 0);
+.login{
+  color:#51ACC5;
   text-align: center;
-  font-weight: bold;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: 'Roboto', arial, sans-serif;
+  /* font-family: 'Fredoka One', cursive; */
+  text-shadow:  -2px -2px  black;
+  
 }
 
-form-group {
-  position:static;
-  
+form-group{
   margin-top: 30px;
 }
 
-.forgot {
-  
+.forgot{
   /* margin-top:2.5%; */
   font-size: smaller;
-  position:static;
-  padding-top: 20px;
+  position:flex;
+  padding-bottom: 20px;
 }
