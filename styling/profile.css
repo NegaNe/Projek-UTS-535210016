@@ -23,7 +23,14 @@
   margin-top: 250px;
 }
 
+.card-text{
+  color: white;
+  font-weight: 450;
+  font-size: 30px;
+}
+
 #profilebanner{
+  width: auto;
   background-color: #51ACC5;
   border:#51ACC5 7px solid ;
 }
