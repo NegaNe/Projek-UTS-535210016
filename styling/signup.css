@@ -40,3 +40,8 @@
 .form-signup .form-group .form-check {
     margin-top: 10px;
 }
+
+.form-signup .form-group button[type="submit"] {
+    position: absolute;
+    right: 0px;
+}
