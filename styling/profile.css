@@ -1,4 +1,20 @@
 /* PROFILE BY HANS */
+.profil1 {
+  padding-left: 50px;
+  margin-top:-6%;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.profil1 a {
+  color: white;
+  text-decoration: none;
+}
+
+.wrapper-profil{
+  border-bottom: 2px solid white;
+}
+
 .profile_img{
   float:right;
   width: 400px;
@@ -6,7 +22,6 @@
   margin-right: 250px;
   margin-top: 250px;
 }
-
 
 #profilebanner{
   background-color: #51ACC5;
