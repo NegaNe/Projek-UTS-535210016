@@ -4,7 +4,10 @@
     color: white;
     margin: 20px auto;
 }
-.raddot-signup p{
+.raddot-signup a{
+    color: white;
+    display: block;
+    text-decoration: none;
     text-align: center;
     text-shadow: 0 5px 2px crimson, 5px 0 2px #51ACC5;
 }
@@ -36,4 +39,9 @@
 
 .form-signup .form-group .form-check {
     margin-top: 10px;
+}
+
+.form-signup .form-group button[type="submit"] {
+    position: absolute;
+    right: 0px;
 }
