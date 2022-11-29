@@ -9,6 +9,15 @@ const routesV1 = require('../api/v1');
 
 const app = express();
 
+//set view engine ejs
+app.set('view engine', 'ejs');
+
+app.get('/', function(req,res) {
+  res.render ('pages/index');
+  // res.send('hello');
+});
+
+
 // handles if you're behind a reverse proxy
 app.enable('trust proxy');
 
