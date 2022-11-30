@@ -17,6 +17,8 @@ app.get('/', function(req,res) {
   // res.send('hello');
 });
 
+app.use(express.static('public'));
+
 
 // handles if you're behind a reverse proxy
 app.enable('trust proxy');
