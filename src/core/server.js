@@ -3,6 +3,7 @@ const cors = require('cors');
 const bodyParser = require('body-parser');
 const passport = require('passport');
 const { errors } = require('celebrate');
+const path = require('path');
 
 const config = require('./config');
 const routesV1 = require('../api/v1');
@@ -17,7 +18,28 @@ app.get('/', function(req,res) {
   // res.send('hello');
 });
 
+app.get('/', function(req,res) {
+  res.render ('pages/login');
+  // res.send('hello');
+});
+
+app.get('/', function(req,res) {
+  res.render ('pages/login');
+  // res.send('hello');
+});
+
+app.get('/', function(req,res) {
+  res.render ('pages/signup');
+  // res.send('hello');
+});
+
+app.get('/', function(req,res) {
+  res.render ('pages/profile');
+  // res.send('hello');
+});
+
 app.use(express.static('public'));
+// app.use(path.join(__dirname, 'public'));
 
 
 // handles if you're behind a reverse proxy
