@@ -18,6 +18,11 @@ app.get('/', function(req,res) {
   // res.send('hello');
 });
 
+app.get('/index', function(req,res) {
+  res.render ('pages/index');
+  // res.send('hello');
+});
+
 app.get('/login', function(req,res) {
   res.render ('pages/login');
   // res.send('hello');
@@ -28,7 +33,7 @@ app.get('/signup', function(req,res) {
   // res.send('hello');
 });
 
-app.get('/', function(req,res) {
+app.get('/profile', function(req,res) {
   res.render ('pages/profile');
   // res.send('hello');
 });
