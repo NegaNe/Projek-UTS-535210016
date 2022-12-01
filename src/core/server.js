@@ -18,17 +18,12 @@ app.get('/', function(req,res) {
   // res.send('hello');
 });
 
-app.get('/', function(req,res) {
+app.get('/login', function(req,res) {
   res.render ('pages/login');
   // res.send('hello');
 });
 
-app.get('/', function(req,res) {
-  res.render ('pages/login');
-  // res.send('hello');
-});
-
-app.get('/', function(req,res) {
+app.get('/signup', function(req,res) {
   res.render ('pages/signup');
   // res.send('hello');
 });
