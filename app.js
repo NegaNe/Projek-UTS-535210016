@@ -6,6 +6,7 @@ const path = require('path')
 const connection = require('./connection')
 const model = require('./models/models')
 const { callbackify } = require('util')
+const router = express.Router();
 // const userModels = require('./models/userModels')
 
 app.use(express.json())
@@ -21,36 +22,24 @@ app.get('/', async (req, res) => {
   res.render('index', { student: data || '' })
 })
 
-app.get('/signup', async (req,res) => {
+app.get('/register', async (req,res) => {
   const data = await userModels.find({}).exec();
   console.log(data);
-  res.render('signup', { user: data || '' });
+  res.render('register', { user: data || '' });
 })
 
-try{userModels.find({}).exec()
-  userModels.create({
-userName: "Surya",
-userMail: "hans@gmail.com",
-userPass: "12345"
-  }
-)} catch (error) {
-  if(error){
-    res.redirect('/index')
-    console.log('Error found, User Cannot be Registered')
-  } else{
-    res.redirect('/index')
-    console.log('Success!')
-}
-}
-
-app.post('/signup', async(req, res) => {
-  const pw = await bcrypt.hash((req.body.userPass).toString(), 10)
+app.post('/register', async(req, res) => {
+  const pw = await bcrypt.hash((req.body.pass).toString(), 10)
   userModels.find({}).exec();
-  userModels.create({
-    userName: req.body.userName,
-    userMail: req.body.userMail,
+  router.post("/register", userModels.create({
+    userName: req.body.name,
+    userMail: req.body.mail,  
     userPass: pw,
-    });
+
+
+
+      
+    }));
 
   res.redirect('/');
   // res.render('/index')

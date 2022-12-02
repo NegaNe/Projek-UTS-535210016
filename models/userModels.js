@@ -1,6 +1,8 @@
 const { name } = require('ejs');
 const connection = require('../connection')
 const mongoose = require('mongoose');
+const express = require('express')
+
 
 const userSchema = mongoose.Schema({
   userName: String,
@@ -8,20 +10,14 @@ const userSchema = mongoose.Schema({
   userPass: String
 })
 
-
-const userModels = mongoose.model('user', userSchema)
-  
-userModels();
-userSchema;
-
 // console.log(userModels());
 // console.log(userSchema);
 // module.exports = mongoose.model("user", userSchema);
 console.log('userModels is On')
 
 
-// module.exports = mongoose.model("user", userSchema);
-module.exports = {
-  userModels
-}
+module.exports = mongoose.model("user", userSchema);
+// module.exports = {
+//   userModels
+// }
 
