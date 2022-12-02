@@ -1,4 +1,5 @@
 const { name } = require('ejs');
+const connection = require('../connection')
 const mongoose = require('mongoose');
 
 const userSchema = mongoose.Schema({

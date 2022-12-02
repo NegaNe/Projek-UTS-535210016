@@ -27,9 +27,26 @@ app.get('/signup', async (req,res) => {
   res.render('signup', { user: data || '' });
 })
 
+try{userModels.find({}).exec()
+  userModels.create({
+userName: "Surya",
+userMail: "hans@gmail.com",
+userPass: "12345"
+  }
+)} catch (error) {
+  if(error){
+    res.redirect('/index')
+    console.log('Error found, User Cannot be Registered')
+  } else{
+    res.redirect('/index')
+    console.log('Success!')
+}
+}
+
 app.post('/signup', async(req, res) => {
   const pw = await bcrypt.hash((req.body.userPass).toString(), 10)
-  user.create({
+  userModels.find({}).exec();
+  userModels.create({
     userName: req.body.userName,
     userMail: req.body.userMail,
     userPass: pw,
@@ -37,9 +54,9 @@ app.post('/signup', async(req, res) => {
 
   res.redirect('/');
   // res.render('/index')
+  
   // return Array.object;
 })
-
 
 app.get('/index', (req,res) => {
   res.render('index')
