@@ -25,19 +25,19 @@
             <div class="container-login">
                 <h2 class="login">Log in</h2>
                 <hr>
-                <form>
+                <form method="post" action="/login">
                     <div class="form-group">
-                        <label for="exampleInputEmail1">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                        <label for="emailLogin">Email address</label>
+                        <input type="email" name="mail" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
                         <small id="emailHelp" class="form-text text-muted">We'll never share your information with
                             anyone else.</small>
                     </div>
                     <div class="form-group">
-                        <label for="exampleInputPassword1">Password</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1">
+                        <label for="passLogin">Password</label>
+                        <input type="password" name="pass" class="form-control" id="exampleInputPassword1">
                     </div>
 
-                    <button type="submit" action="/login" method="POST" class="btn btn-primary">Login</button>
+                    <button type="submit" class="btn btn-primary">Login</button>
                 </form>
                 <div class="forgot">
                     <a href="#">Forgot Password ?</a> <a class="create" href="register.ejs">Create account</a>

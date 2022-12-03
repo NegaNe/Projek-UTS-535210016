@@ -28,34 +28,9 @@ app.get('/register', async (req,res) => {
   res.render('register', { user: data || '' });
 })
 
-// app.post('/register', async(req, res) => {
-//   const pw = await bcrypt.hash((req.body.pass).toString(), 10)
-//   userModels.find({}).exec();
-//   router.post("/register", userModels.create({
-//     userName: req.body.name,
-//     userMail: req.body.mail,  
-//     userPass: pw,
-//     }));
-//   res.redirect('/');
-//   // res.render('/index')
-//   return Array.object;
-// })
-
-// app.post('/register', async(req,res) =>{
-//   try{userModels.find({}).exec()
-//   res.send('request posted')
-//   res.send(userModels.create)({
-//     userName: req.body.name,
-//     userMail: req.body.mail,
-//     userPass: req.body.pass
-//   })
-// res.send(userModels);
-// }catch(errors){
-//   console.log(errors);
-// }
-// })
 
 app.post('/register', async (req,res) => {
+  // const pw = await bcrypt.hash((req.body.pass).toString(), 10)
   userModels.create({
     userName: req.body.name,
     userMail: req.body.mail,
@@ -81,11 +56,11 @@ app.post('/login', async(req, res) => {
   Array.from(user).forEach((usr) =>{
   })
 
-
   if (!user) {
     return res.redirect('/')
   } else {
-    const isValid = await bcrypt.compare(req.body.password, user.password)
+    // const isValid = await bcrypt.compare(req.body.password, user.password)
+    const isValid = await userModels.findOne({ userPass: req.body.pass })
     if (!isValid) {
       return res.redirect('/')
     } else {
