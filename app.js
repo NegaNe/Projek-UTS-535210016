@@ -52,9 +52,8 @@ app.get('/profile', async (req,res) => {
 })
 
 app.post('/login', async(req, res) => {
-  const user = await userModels.find({ userName: req.body.userName }).exec();
-  Array.from(user).forEach((usr) =>{
-  })
+  const user = await userModels.find({ userName: req.body.userName, userPass: req.body.pass }).exec();
+  // const access = await userModels.findOne.compare({ userPass: req.body.userPas})
 
   if (!user) {
     return res.redirect('/')
@@ -62,7 +61,10 @@ app.post('/login', async(req, res) => {
     // const isValid = await bcrypt.compare(req.body.password, user.password)
     const isValid = await userModels.findOne({ userPass: req.body.pass })
     if (!isValid) {
-      return res.redirect('/')
+      console.log('Credentials Failed')
+
+      return res.render('login')
+      // return res.get(userModels.userName.findOne({ userName: req.body.name }));
     } else {
       return res.render('index', { user })
 
