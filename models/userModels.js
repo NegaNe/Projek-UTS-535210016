@@ -15,9 +15,9 @@ const userSchema = mongoose.Schema({
 // module.exports = mongoose.model("user", userSchema);
 console.log('userModels is On')
 
-
-module.exports = mongoose.model("user", userSchema);
-// module.exports = {
-//   userModels
-// }
+const userModels = mongoose.model('user', userSchema)
+// module.exports = mongoose.model("user", userSchema);
+module.exports = {
+  userModels
+}
 

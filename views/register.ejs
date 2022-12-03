@@ -15,7 +15,8 @@
     <div class="raddot-register">
         <a href="index">Raddot</a>
     </div>
-    <form class="form-register">
+
+    <form action="/register" method="post" class="form-register">
         <h1 class="register">Sign Up</h1>
         <br>
         <div class="form-row">
@@ -80,23 +81,21 @@
                     <form>
                         <button type="submit" class="btn btn-dark">Sign Up</button>
                     </form> -->
-                    <form action="/register" method="POST">
-  
-                <label for="name">Name</label>
-                    <input type="text" name="name" id="name"><br/>
-                <label for="userMail">Email</label>
-                    <input type="text" name="mail" id="mail">
-                <label for="userPass">Password</label>
-                    <input type="password" name="pass" id="pass">
 
-                    <input type="submit" value="Submit">
-                </form>
+                        <label for="name" type="text" name="name" id="name">name</label>
+                          <input for="name" type="text" name="name" id="name">
+                        <label for="mail">mail</label>
+                          <input for="mail" type="text" name="mail" id="mail">
+                        <label for="pass" type="text" name="pass" id="pass">pass</label>
+                          <input for="pass" type="text" name="pass" id="pass">
+                        <input type="submit" value="submit">
+
        
                 </div>
                 <p>Already have an account?<a href="/login"> 
                     Login</a> instead</p>
             </div>
-
+        </form>
     
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
