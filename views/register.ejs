@@ -11,12 +11,12 @@
     <script src="https://unpkg.com/feather-icons"></script>
     <title>Sign Up</title>
 </head>
+
 <body>
     <div class="raddot-register">
         <a href="index">Raddot</a>
     </div>
-
-    <form action="/register" method="post" class="form-register">
+    <form method="post" action="/register" class="form-register">
         <h1 class="register">Sign Up</h1>
         <br>
         <div class="form-row">
@@ -39,63 +39,45 @@
                 </button>
             </div>
         </div>
-
-        <ul>
-            <% user.forEach((usr) => { %>
-            <li> <%= usr.name %> <%= usr.age %></li>
-            <% }) %>
-          </ul>
-
-        <!-- <p class="or-text">or</p>
+        <p class="or-text">or</p>
         <div class="form-row">
-            <div for="name" class="form-group col-md-12">
-                <input type="text" id="name" class="form-control" placeholder="Username" required>
+            <div class="form-group col-md-12">
+                <input type="text" name="name" class="form-control" placeholder="Username" required>
                 <small id="passwordHelpBlock" class="form-text text-muted">
                    Maximum 20 characters
                 </small> 
             </div>
         </div>
         <div class="form-row">
-            <div for="email" class="form-group col-md-12">
-                <input type="text" id=email class="form-control" placeholder="Email Address" required>
+            <div class="form-group col-md-12">
+                <input type="email" name="mail" class="form-control" placeholder="Email Address" required>
             </div>
         </div>
-
-            <div class="form-row">
-                <div for="password" class="form-group col-md-12">
-                    <input type="password" class="form-control" placeholder="Password" id="password" required>
-                    <small id="passwordHelpBlock" class="form-text text-muted">
-                        Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces or special characters.
-                    </small>
-                </div>
+        <div class="form-row">
+            <div class="form-group col-md-12">
+                <input type="password" name="pass" class="form-control" placeholder="Password" required>
+                <small id="passwordHelpBlock" class="form-text text-muted">
+                    Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces or special characters.
+                </small>
             </div>
-            <div class="form-row">
-                <div class="form-group col-md-12">
-                    <input type="password" class="form-control" placeholder="Confirm Password" required>
-                </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-12">
+                <input type="password" class="form-control" placeholder="Confirm Password" required>
             </div>
-            <div class="form-group">
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" id="gridCheck" required>
-                    <label class="form-check-label" for="gridCheck">I Accept Privacy Policy</label>
-                    <form>
-                        <button type="submit" class="btn btn-dark">Sign Up</button>
-                    </form> -->
-
-                        <label for="name" type="text" name="name" id="name">name</label>
-                          <input for="name" type="text" name="name" id="name">
-                        <label for="mail">mail</label>
-                          <input for="mail" type="text" name="mail" id="mail">
-                        <label for="pass" type="text" name="pass" id="pass">pass</label>
-                          <input for="pass" type="text" name="pass" id="pass">
-                        <input type="submit" value="submit">
-
-       
-                </div>
-                <p>Already have an account?<a href="/login"> 
-                    Login</a> instead</p>
+        </div>
+        <div class="form-group">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck" required>
+                <label class="form-check-label" for="gridCheck">I Accept Privacy Policy</label>
+                    <button type="submit" class="btn btn-dark">Sign Up</button>
             </div>
-        </form>
+        </div>
+        <p>Already have an account?<a href="login.ejs"> 
+            Login</a> instead</p>
+    </form>
+
+
     
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
