@@ -3,7 +3,7 @@ const { userModels } = require('./models/userModels')
 const app = express()
 const path = require('path')
 
-const bcrypt = require('bcrypt')
+// const bcrypt = require('bcrypt')
 const connection = require('./connection')
 const model = require('./models/models')
 const { callbackify } = require('util')
