@@ -16,7 +16,7 @@
 <body>
 
     <!-- Navbar -->
-    <nav class="navbar sticky-top navbar-dark">
+    <nav action="" class="navbar sticky-top navbar-dark">
         <div class="logo">
             <a style="text-decoration: none;" href="index">Raddot</a>
         </div> 
@@ -39,7 +39,14 @@
             <a class="header-right" href="/login">Log In</a>
             <a class="header-right" href="/register">Sign Up</a>
         </div>
+
+
+            <% user.forEach((stud) => { %>
+                <li> <%= stud.userName %>: <%= stud.userPass %></li>
+                <% }) %>
+
     </nav>
+
 
     <!-- Trending -->
     <div class="container-trending">

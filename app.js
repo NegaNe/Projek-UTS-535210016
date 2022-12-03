@@ -17,14 +17,19 @@ app.use(express.static(path.join(__dirname, 'public')))
 
 app.get('/', async (req, res) => {
   const data = await userModels.find({}).exec();
-  console.log(data)
+  res.render('index', { user: data || '' })
+  console.log(data);
 
-  res.render('index', { student: data || '' })
+})
+
+app.get('/index', async(req,res) => {
+  const data = await userModels.find({}).exec();
+  res.render('index', { user: data || '' })
+
 })
 
 app.get('/register', async (req,res) => {
   const data = await userModels.find({}).exec();
-  console.log(data);
   res.render('register', { user: data || '' });
 })
 
@@ -39,9 +44,7 @@ app.post('/register', async (req,res) => {
   res.redirect('/')
 })
 
-app.get('/index', (req,res) => {
-  res.render('index')
-})
+
 
 app.get('/login', async (req,res) => {
   res.render('login')
@@ -62,11 +65,10 @@ app.post('/login', async(req, res) => {
     const isValid = await userModels.findOne({ userPass: req.body.pass })
     if (!isValid) {
       console.log('Credentials Failed')
-
       return res.render('login')
       // return res.get(userModels.userName.findOne({ userName: req.body.name }));
     } else {
-      return res.render('index', { user })
+      return res.render('index', { user: user })
 
     }
   }
