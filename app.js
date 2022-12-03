@@ -69,6 +69,6 @@ app.post('/login', async(req, res) => {
 
 })
 
-app.listen(5050, () => {
-  console.log('http://localhost:5050')
+app.listen(4000, () => {
+  console.log('http://localhost:4000')
 })
