@@ -70,6 +70,7 @@ app.post('/login', async(req, res) => {
 })
 
 process.env.NODE_ENV = (process.env.NODE_ENV || 'development').toLowerCase();
+
 const dotenv = require('dotenv');
 const envFound = dotenv.config({ path: './config/.env' });
 if (envFound.error) {
@@ -81,3 +82,8 @@ module.exports = {
 
   jwtSecretKey: process.env.JWT_SECRET_KEY || '',
 };
+
+app.listen(process.env.PORT, () => {
+  console.log('http://localhost:4000')
+})
+
