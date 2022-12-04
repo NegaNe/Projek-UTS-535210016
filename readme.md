@@ -13,7 +13,7 @@
 # TO USE SRC CODE:
 1. Clone Repository
 2. type "npm install" in the terminal, without quotation mark
-3. To open the web locally, type "npm run start"
+3. To open the web locally, type "npm run start" then type localhost:4000 on your browser
 4. this website can also be opened here ( https://forum-4-negane-production.up.railway.app/ ) ~ Around 20-30 days until expire.
 
 # Team
