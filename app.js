@@ -69,6 +69,15 @@ app.post('/login', async(req, res) => {
 
 })
 
+process.env.NODE_ENV = (process.env.NODE_ENV || 'development').toLowerCase();
+const dotenv = require('dotenv');
+const envFound = dotenv.config({ path: './config/.env' });
+if (envFound.error) {
+  throw new Error('File .env not found.');
+}
 
-app.set('port', process.env.PORT || 4000);
-console.log('http://localhost:4000')
+module.exports = {
+  port: process.env.PORT || 4000,
+
+  jwtSecretKey: process.env.JWT_SECRET_KEY || '',
+};
