@@ -1,7 +1,7 @@
 # DEVELOPERS :
 1. 535210016 - Hansen Salim (NegaNe)
 2. 535210020 - Surya Halim
-3. 535210023 - Edgar Johan Chuang
+3. 535210023 - Edgar Johan Chuang (FriesX)
 4. 535210027 - Kelvin Ferdinand
 5. 535210048 - Jefri Jaya (Jevone)
 
