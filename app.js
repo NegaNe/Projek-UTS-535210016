@@ -69,6 +69,6 @@ app.post('/login', async(req, res) => {
 
 })
 
-app.listen(4000, () => {
-  console.log('http://localhost:4000')
-})
+
+app.set('port', process.env.PORT || 4000);
+console.log('http://localhost:4000')
